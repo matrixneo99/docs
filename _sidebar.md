@@ -6,7 +6,7 @@
 
 * Software
     * [IDE](software)
-    * [Download and open the firmware](ide)
+    * [Firmware](firmware)
     * [first Configuration](config)
     * [Upload to ESP8266](upload)
     * [First start](start)
