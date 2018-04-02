@@ -1,4 +1,4 @@
 * [Home](/)
 * [Electronics](electronics)
-* [Housing](doc)
-* [Software](doc)
+* [Housing](housing)
+* [Software](software)
