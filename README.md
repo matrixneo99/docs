@@ -10,7 +10,7 @@ AWTRIX is a smart WiFi-capable clock based on an ESP8266.
 - Game of Life 
 - Youtube Counter
 - Facebook Counter
-- Twiiter Counter
+- Twitter Counter
 - DHT Senor reading
 - Fire simulation
 
