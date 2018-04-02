@@ -4,8 +4,8 @@
 
 AWTRIX is a smart WiFi-capable clock based on an ESP8266.
 
-- time via NTP server
-- current weather via Openweathermap
+- Time and date via NTP server
+- Current weather via Openweathermap
 - Simulation of a virtual "pet" with different emotions 
 - Game of Life 
 - Youtube Counter
