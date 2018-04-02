@@ -3,12 +3,14 @@ The configuration consists of 2 parts.
 On the one hand the settings for the display and on the other hand the configuration of the API keys of the individual apps. Both files are located in the root directory.
 and must be renamed and copied to the folder "data" before uploading.  
 
-**Settings**
+**Settings**    
 The settings are adjusted in "settings.example.json". The file itself also contains the explanations of the individual settings. Before uploading the file, it is important to rename it to "settings.json" and copy it to the "data" folder.
 
-**Config**
-The configuration is adapted in "config.example.json".  Before uploading the file, it is important to rename it to "config.json" and copy it to the "data" folder.
+**Config**  
+The configuration is adapted in "config.example.json".  Before uploading the file, it is important to rename it to "config.json" and copy it to the "data" folder.  
 
+
+**API Keys etc**
 
 Openweathermap API (required for weather display):
 All necessary data can be obtained with a free account at http://openweathermap.org/appid

@@ -13,6 +13,6 @@ The installation of the IDE is described in the following link:
 
 The firmware can be downloaded from github as a ZIP file
 [https://github.com/Blueforcer/AWTRIX](https://github.com/Blueforcer/AWTRIX)
-![image alt text](image_1.png)
+![image alt text](assets/image_1.png)
 
 Unzip the ZIP file with a suitable unpacker and open the folder in Visual Studio code.

@@ -5,10 +5,9 @@
     * [Housing](housing)
 
 * Software
-    * [IDE](software)
     * [Firmware](firmware)
     * [First Configuration](config)
     * [Upload to ESP8266](upload)
-    * [First start](start)
+    * [First start](first_start)
     * [Update](update)
     * [Blynk](blynk)
