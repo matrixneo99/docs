@@ -18,9 +18,8 @@ The 3D objects are already aligned as they should be printed to require as littl
 
 ## **Assembly**
 
-First the 2 parts of the LED-grid are glued together on the inside. Grease the flat side with a glue stick and glue on strong drawing paper (approx. 190 g/m²) and cut to size. Same with the 2 parts of the front frame.
-Insert the rear housing parts into each other and check that they fit perfectly. They should only be able to be plugged together with light pressure. If the voltage is too high, the housing may later bend due to the heat of the LEDs. Sandpaper is a good tool to make everything fit if the printer is not perfectly adjusted. If everything fits, the housing parts can also be glued together.
-
-After that the electronics can be used (in the future there may be a PCB to make it a bit cleaner).
-
-Place the LED grid on the front and insert the matrix upside down, it should fit perfectly into the groove. Now the housing can be pressed onto the grid. Turn the whole thing once and attach the frame.
+First of all, glue the 2 parts for the LED Grid together on the inside.
+As a diffuser I used high quality and thicker paper - it’s important that you don’t see the fibres when you hold it against bright light like normal printer paper.
+Then smear the flat side of the LED grid with glue stick and glue the paper onto it.
+this is best done where Awtrix will end up. Due to high temperature and humidity fluctuations, the paper can warp slightly.
+Then put the 2 housings parts together and, if necessary, fix it with a little glue. Solder 2 cables to the power jack and screw it to the housing. You can then continue directly with the remaining wiring. the LDR can be plugged through one of the upper 5mm ventilation holes. When everything is ready, place the diffuser facing down and place the LED matrix on top of it, which should fit perfectly in the groove and Press the housing onto the LED Grid. Then turn everything on the back and attach the front frame.
