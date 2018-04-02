@@ -1,4 +1,6 @@
 * [Home](/)
 * [Electronics](electronics)
 * [Housing](housing)
-* [Software](software)
+* Software
+* [IDE](software)
+* [Download and open the firmware](ide)
