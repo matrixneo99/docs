@@ -1,2 +1,4 @@
 * [Home](/)
-* [Getting Started](doc)
+* [Electronics](doc)
+* [Housing](doc)
+* [Software](doc)
