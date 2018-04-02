@@ -12,8 +12,6 @@ During this period Awtrix only displays the time (strongly darkened).
 
 When Rainbow mode is on, the set text color is ignored and each text is displayed in rainbow colors.
 
-**Rainbow mode**
-
 
 **Amazon Alexa**
 
