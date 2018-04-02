@@ -1,6 +1,7 @@
-* [Home](/)
+* [Home](home)
 
 * Hardware
+    * [Partslist](partslist)
     * [Electronics](electronics)
     * [Housing](housing)
 
