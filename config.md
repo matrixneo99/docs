@@ -1,10 +1,9 @@
 ## **AWTRIX Configuration**
-The configuration consists of 2 parts. 
-On the one hand the settings for the display and on the other hand the configuration of the API keys of the individual apps. Both files are located in the root directory.
-and must be renamed and copied to the folder "data" before uploading.  
+The configuration consists  2 parts. 
+On the one hand the settings for the display settings and on the other hand the configuration of the API keys of the individual apps. Both files are located in the root directory and must be renamed and copied to the folder "data" before uploading.  
 
 **Settings**    
-The settings are adjusted in "settings.example.json". The file itself also contains the explanations of the individual settings. Before uploading the file, it is important to rename it to "settings.json" and copy it to the "data" folder.
+The settings are listed in "settings.example.json". The file itself also contains the explanations of the individual settings. Before uploading the file, it is important to rename it to "settings.json" and copy it to the "data" folder.
 
 **Config**  
 The configuration is adapted in "config.example.json".  Before uploading the file, it is important to rename it to "config.json" and copy it to the "data" folder.  
@@ -22,15 +21,15 @@ Follow these instructions (last step is not necessary)
 https://www.vimp.com/de/web/faq-medien/items/wie-erstelle-ich-einen-youtube-api-key.html
 
 
-Facebook API (required for the Facebook app)
-The URL is composed as follows:
-/AAA?access_token=BBB|CCC&fields=fan_count
-and consists of 
-AAA = Facebook Page ID or Name,
-BBB = App ID
-CCC = App Secret
-A Facebook App must be created for this data: 
-https://developers.facebook.com/
+Facebook API (required for the Facebook app)    
+The URL is composed as follows: 
+/AAA?access_token=BBB|CCC&fields=fan_count  
+and consists of  
+AAA = Facebook Page ID or Name  
+BBB = App ID    
+CCC = App Secret    
+A Facebook App must be created for this data:   
+https://developers.facebook.com/    
 
 
 That's how you get the fingerprint:

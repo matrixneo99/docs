@@ -12,3 +12,5 @@
     * [First start](first_start)
     * [Update](update)
     * [Blynk](blynk)
+
+* [How it works](description)
