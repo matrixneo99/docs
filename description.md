@@ -2,7 +2,27 @@
 
 AWTRIX includes a variety of apps that can display different functions. All activated apps are looped one after the other. The adjustable time in which an app is displayed is the same for each app.
 
-Here is an explanation of how each officially available app works:
+
+**Sleep Mode**
+
+the sleep mode can be activated by setting a time period via blynk or the Settings.json.
+During this period Awtrix only displays the time (strongly darkened). 
+
+**Rainbow mode**
+
+When Rainbow mode is on, the set text color is ignored and each text is displayed in rainbow colors.
+
+**Rainbow mode**
+
+
+**Amazon Alexa**
+
+Awtrix can be turned on and off by Alexa.
+you have to activate Alexa in the Settings.json.
+After searching for new devices, Awtrix is recognized as "Atrix".
+
+
+**Here is an explanation of how each officially available app works:**
 
   
 **TimeApp**

@@ -1,4 +1,7 @@
 * [Home](/)
+* [How it works](description)
+
+* [Actual Blynk layout](actual_blynk)
 
 * Hardware
     * [Partslist](partslist)
@@ -13,4 +16,4 @@
     * [Update](update)
     * [Blynk](blynk)
 
-* [How it works](description)
+
