@@ -5,11 +5,11 @@ Further update options are available after the first flashing via USB:
 **Update via WiFi:**
 
 AWTRIX supports over-the-air updates. Terminal:
-> **platform run -t upload --upload port 192.168.178.96**
+> **platformio run -t upload --upload port 192.168.178.96**
 
 Adjust the IP address. 
 This variant also works when flashing the SPIFFS 
-> **platform run -t uploadfs --upload port 192.168.178.96**
+> **platformio run -t uploadfs --upload port 192.168.178.96**
 
 **Update via Web:**
 
