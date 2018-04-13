@@ -19,6 +19,7 @@ more functions:
 - Display of user-defined texts via MQTT
 - Automatic brightness control via LDR
 - easy Firmware update via WiFi or Web
+- Amazon´s Alexa integration. (Turn On/Off)
 
 The case is designed in Fusion360 and printed in 3D.
 You can get the STL-Files from Thingiverse:
