@@ -6,10 +6,10 @@ Weinbergstraße 10
 63477 Maintal 
 
 ### **Represented by:** 
-Stephan Mill
-Contact: 
-Phone: 0151-14527383
-E-Mail: emule@gmx.net
+Stephan Mill  
+Contact:  
+Phone: 0151-14527383  
+E-Mail: emule@gmx.net 
 
 ### **Disclaimer:** 
 
