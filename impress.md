@@ -1,9 +1,9 @@
 ## **Imprint**
 Information according to § 5 TMG
 
-Stephan Mill 
-Weinbergstraße 10
-63477 Maintal 
+Stephan Mühl  
+Weinbergstraße 10 
+63477 Maintal   
 
 ### **Represented by:** 
 Stephan Mühl  
