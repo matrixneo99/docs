@@ -2,7 +2,7 @@
 Information according to § 5 TMG
 
 Stephan Mühl  
-Weinbergstraße 10 
+Weinbergstraße 10    
 63477 Maintal   
 
 ### **Represented by:** 
