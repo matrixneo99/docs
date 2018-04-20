@@ -4,7 +4,7 @@
 You can control Awtrix via UDP. Awtrix listens to the port 52829.  
 Each API command is exactly one UDP packet containing one line.   
 If you send a known command, Awtrix send "ACK" as a response back to the remoteIP.    
-Some commands consist of the command itself and a payload which is passed, separated by a percentage symbol (%).      
+Most commands consist of the command itself and a payload which is passed, separated by a percentage symbol (%).      
 
 **Commands**
 
