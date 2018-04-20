@@ -22,4 +22,4 @@ Some commands consist of the command itself and a payload which is passed, separ
 | pongmove | 0-1000 | pongmove%500 | Move the paddle from left to right |
 | snakemove | 0-3 | snakemove%1 | Change the Snake direction (0=TOP/1=RIGHT/2=BOTTOM/3=LEFT) |
 | settings | get | settings%get | Send back all Settings as one JSON |
-| settings | JSON | settings&{"BIG_TIME": "1"} | Save all Settings from the given JSON to Flash. You can send any number of settings in a JSON  |
+| settings | JSON | settings%{"BIG_TIME": "1"} | Save all Settings from the given JSON to Flash. You can send any number of settings in a JSON  |
