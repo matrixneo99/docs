@@ -1,6 +1,6 @@
 ## How it works
 
-AWTRIX includes a variety of apps that can display different functions. All activated apps are looped one after the other. The adjustable time in which an app is displayed is the same for each app.
+AWTRIX includes a variety of apps that can display different functions. All activated apps are looped one after the other. The adjustable time in which an app is displayed is the same for each app. Each function can be activated in the settings.json.
 
 
 **Sleep Mode**

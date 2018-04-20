@@ -1,6 +1,6 @@
 * [Home](/)
 * [How it works](description)
-
+* [API](api)
 * [Current Blynk Layout](actual_blynk)
 
 * Hardware
