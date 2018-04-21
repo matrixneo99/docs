@@ -1,9 +1,16 @@
-## UDP API Definition
+##API Definition
 
 (only available in the DEV Branch)  
-You can control Awtrix via UDP. Awtrix listens to the port 52829.  
+You can control Awtrix via UDP or MQTT. 
+
+**UDP**
+With UPD Awtrix listens to the port 52829. 
 Each API command is exactly one UDP packet containing one line.   
-If you send a known command, Awtrix send "ACK" as a response back to the remoteIP.    
+If you send a known command, Awtrix send "ACK" as a response back to the remoteIP.  
+**MQTT**
+With MQTT Awtrix listens to the Topic "awtrix/com".
+If you send a known command, Awtrix send "ACK" to Topic "awtrix/com/response".  
+  
 Some commands consist of the command itself and a payload which is passed, separated by a percentage symbol (%).      
 
 **Commands**
