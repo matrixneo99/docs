@@ -1,4 +1,4 @@
-##API Definition
+## API Definition
 
 You can control Awtrix via UDP or MQTT. 
 
