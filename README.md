@@ -8,7 +8,7 @@ Welcome to my first open source project. This documentation is maintained to the
 
 [Release Page](https://awtrix.github.io)  
 [Facebook Group](https://www.facebook.com/groups/126493104851075/)  
-[Buy me a coffee or a case of beer.](https://www.paypal.com/donate/?token=zzOPTakpgoeB0p6MDyLKumNc01S-DTPuGZ-mUeZtBPR4mdEK9KA1rYjogoxp0cNHd59fO0&country.x=DE&locale.x=DE)  
+[Buy me a coffee or a case of beer :-)](https://www.paypal.com/donate/?token=zzOPTakpgoeB0p6MDyLKumNc01S-DTPuGZ-mUeZtBPR4mdEK9KA1rYjogoxp0cNHd59fO0&country.x=DE&locale.x=DE)  
 
 
 
