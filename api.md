@@ -10,7 +10,13 @@ If you send a known command, Awtrix send "ACK" as a response back to the remoteI
 With MQTT Awtrix listens to the Topic "awtrix/com".
 If you send a known command, Awtrix send "ACK" to Topic "awtrix/com/response".  
   
-Some commands consist of the command itself and a payload which is passed, separated by a percentage symbol (%).      
+Some commands consist of the command itself and a payload which is passed, separated by a percentage symbol (%).    
+
+**Please note:**
+The app communicates with Awtrix via UDP. 
+The User Datagram Protocol (UDP) is the simplest form of IP data transmission. Data is simply chased off in one direction. UPD does not take care that the data is transmitted without errors. It doesn't even guarantee the arrival of the packages.
+This form of data transmission is the fastest and simplest but the ESP8266 is much less busy than with TCP.
+  
 
 **Commands**
 
