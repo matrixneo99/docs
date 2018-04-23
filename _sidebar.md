@@ -1,6 +1,7 @@
 * [Home](/)
 * [How it works](description)
 * [API](api)
+* [Android App](app)
 * [Current Blynk Layout](actual_blynk)
 
 * Hardware
