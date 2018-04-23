@@ -2,6 +2,7 @@
 * [How it works](description)
 * [API](api)
 * [Android App](app)
+* [Blynk](blynk)
 * [Current Blynk Layout](actual_blynk)
 
 * Hardware
@@ -15,6 +16,6 @@
     * [Upload to ESP8266](upload)
     * [First start](first_start)
     * [Update](update)
-    * [Blynk](blynk)
+
 
 
