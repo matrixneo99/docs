@@ -6,8 +6,9 @@ You can control Awtrix via UDP or MQTT.
 With UPD Awtrix listens to the port 52829. 
 Each API command is exactly one UDP packet containing one line.   
 If you send a known command, Awtrix send "ACK" as a response back to the remoteIP.  
-The UDP listener is always active. 
-**MQTT**
+The UDP listener is always active.   
+
+**MQTT**  
 With MQTT Awtrix listens to the Topic "awtrix/com".
 If you send a known command, Awtrix send "ACK" to Topic "awtrix/com/response".  
 For MQTT the broker connection information must be entered in config.json.
