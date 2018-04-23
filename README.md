@@ -2,6 +2,16 @@
 
 ![AWTRIX Preview](assets/awtrix.jpg? "AWTRIX")
 
+Welcome to my first open source project. This documentation is maintained to the best of my knowledge and belief. However, it can of course happen that errors creep in. If you have any problems or questions, please feel free to contact the Facebook group. They'll be happy to help you. Here are a few links:  
+  
+
+
+[Release Page](https://awtrix.github.io)  
+[Facebook Group](https://www.facebook.com/groups/126493104851075/)  
+[Buy me a coffee or a case of beer.](https://www.paypal.com/donate/?token=zzOPTakpgoeB0p6MDyLKumNc01S-DTPuGZ-mUeZtBPR4mdEK9KA1rYjogoxp0cNHd59fO0&country.x=DE&locale.x=DE)  
+
+
+
 AWTRIX is a smart WiFi-capable clock based on an ESP8266.
 
 - Time and date via NTP server
@@ -15,8 +25,7 @@ AWTRIX is a smart WiFi-capable clock based on an ESP8266.
 - Fire simulation
 
 more functions: 
-- Control and configuration via BLYNK
-- Display of user-defined texts via MQTT
+- Control and configuration via BLYNK, MQTT, UDP or Android App
 - Automatic brightness control via LDR
 - easy Firmware update via WiFi or Web or Autoupdate
 
