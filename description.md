@@ -12,13 +12,6 @@ During this period Awtrix only displays the time (strongly darkened).
 
 When Rainbow mode is on, the set text color is ignored and each text is displayed in rainbow colors.
 
-**Amazon Alexa**
-
-Awtrix can be turned on and off by Alexa.
-you have to activate Alexa in the Settings.json.
-After searching for new devices, Awtrix is recognized as "Atrix".
-
-
 **Here is an explanation of how each officially available app works:**
 
   
