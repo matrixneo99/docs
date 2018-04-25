@@ -10,4 +10,4 @@
 
 
 [GitHub](https://github.com/awtrix/awtrix)
-[Get Started](#readme)
+[Get Started](README)
