@@ -1,4 +1,4 @@
-![logo](assets/awtrix.jpg)
+![logo](assets/awtrixbanner.jpg)
 
 # AWTRIX <small>0.7</small>
 
