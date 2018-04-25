@@ -4,8 +4,8 @@
 
 Welcome to my first open source project. This documentation is maintained to the best of my knowledge and belief. However, it can of course happen that errors creep in. If you have any problems or questions, please feel free to contact the Facebook group. They'll be happy to help you. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PjhV3jEGNtc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-special Thanks to my firend Quentin Daems for this review![Subscribe his Channel for more Weekend Makes!](https://www.youtube.com/channel/UCM8iZUKxIHGmAaRcQ_aTYfA)  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PjhV3jEGNtc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>  
+Special Thanks to my friend Quentin Daems for this review![Subscribe his Channel for more Weekend Makes!](https://www.youtube.com/channel/UCM8iZUKxIHGmAaRcQ_aTYfA)  
 
 Here are a few links:  
 
