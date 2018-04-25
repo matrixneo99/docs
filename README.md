@@ -4,7 +4,6 @@
 
 Welcome to my first open source project. This documentation is maintained to the best of my knowledge and belief. However, it can of course happen that errors creep in. If you have any problems or questions, please feel free to contact the Facebook group. They'll be happy to help you. Here are a few links:  
   
-  [cinwell website](https://www.youtube.com/watch?v=PjhV3jEGNtc ':include :type=iframe width=100% height=400px')
 
 
 [Release Page](https://awtrix.github.io)  
