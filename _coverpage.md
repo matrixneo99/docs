@@ -2,7 +2,7 @@
 
 # AWTRIX <small>0.7</small>
 
-> The opensource smart WiFi Clock.
+> Official (BETA) documentation
 
 * Simple to build
 * Lots of functions
