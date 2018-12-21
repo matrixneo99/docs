@@ -12,7 +12,7 @@ The installation of the IDE is described in the following link:
 ## **Flashing**
 
 The firmware can be downloaded here:
-[https://awtrix.blueforcer.de/AWTRIXcontroller.zip](https://awtrix.blueforcer.de/AWTRIXcontroller.zip)
+[AWTRIX Controller](#)
 
 
 Unzip the ZIP file with a suitable unpacker and open the folder in Visual Studio code. Then simply flash the firmware. In VSC, this is done in the blue line at the bottom of the window:  
