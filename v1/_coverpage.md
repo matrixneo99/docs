@@ -1,6 +1,6 @@
 ![logo](assets/awtrixbanner.jpg)
 
-# AWTRIX 
+# AWTRIX <small>0.7</small>
 
 > Official (BETA) documentation
 
@@ -8,5 +8,7 @@
 * Lots of functions
 * Opensource
 
-[V1.0](v1/README)
-[V2.0](v2/README)
+
+[GitHub](https://github.com/awtrix/awtrix)
+[V1.0](README)
+[V2.0](README)
