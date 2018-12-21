@@ -10,4 +10,5 @@
 
 
 [GitHub](https://github.com/awtrix/awtrix)
-[Get Started](README)
+[V1.0](README)
+[V2.0](README)
