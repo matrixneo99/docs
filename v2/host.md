@@ -43,6 +43,7 @@ After network.target = awtrix.service
 
 [Service]
 Type = forking
+WorkingDirectory =/usr/local/awtrix
 ExecStart = /usr/local/bin/awtrix.sh start
 ExecStop = /usr/local/bin/awtrix.sh stop
 ExecReload = /usr/local/bin/awtrix.sh reload
