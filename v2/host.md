@@ -17,7 +17,7 @@ Shortly after the start the web interface can be called via http://awtrix_ip:700
 
 ## **Installing on a Linux machine with Autostart**
 ```sudo mkdir /usr/local/awtrix```  
-  
+```sudo cd /usr/local/awtrix```    
 ```sudo wget sudo wget http://awtrix.blueforcer.de/awtrix.jar```
 
 
