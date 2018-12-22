@@ -112,6 +112,8 @@ If everything workingg, enable the service with the command
 
 ```sudo systemctl enable awtrix```  
 
+
+
 To run awtrix  
 ```sudo systemctl start awtrix.service ```   
 To stop awtrix   
