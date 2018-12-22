@@ -1,4 +1,4 @@
-AWTRIX 2.0 can run on any platform (Windows, MacOS, Linux), the only requirement is the support of Java8. It is a non-GUI application so you doesnt need an desktop enviroment. 
+AWTRIX 2.0 can run on any platform (Windows, MacOS, Linux), the only requirement is the support of Java8. It is a non-GUI application so you doesnt need an desktop enviroment.   
 This Tutorial describes the installation on a Linux machine (in my case a Raspberry ZeroW with Rasbian Lite)
 
 
