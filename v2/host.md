@@ -19,7 +19,7 @@ Shortly after the start the web interface can be called via http://awtrix_ip:700
 
 ## **Installing on a Linux machine with Autostart**
 ```sudo mkdir /usr/local/awtrix```  
-```sudo cd /usr/local/awtrix```    
+```cd /usr/local/awtrix```    
 ```sudo wget http://awtrix.blueforcer.de/awtrix.jar```
 
 
@@ -108,7 +108,7 @@ Test that it stops with:
 Test that it restarts with:  
 ```/usr/local/bin/./awtrix.sh restart```     
 
-Enable the service with the command
+If everything workingg, enable the service with the command
 
 ```sudo systemctl enable awtrix```  
 
