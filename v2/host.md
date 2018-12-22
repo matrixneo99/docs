@@ -1,6 +1,11 @@
 AWTRIX 2.0 can run on any platform (Windows, MacOS, Linux), the only requirement is the support of Java8. It is a non-GUI application so you doesnt need an desktop enviroment.   
 This Tutorial describes the installation on a Linux machine (in my case a Raspberry ZeroW with Rasbian Lite)
 
+First check if Java is installed
+```java -version```
+
+otherwise install the latest Java8:
+```sudo apt-get install oracle-java8-jdk```
 
 ## **Quickstart**
 This short example shows how to start the Java application.
