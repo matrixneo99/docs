@@ -102,11 +102,11 @@ save the file and give execution permisions
 
 
 Test that it runs with:  
-```  **/usr/local/bin/./awtrix.sh start**```     
+```/usr/local/bin/./awtrix.sh start```     
 Test that it stops with:   
-``` **/usr/local/bin/./awtrix.sh stop**```     
+```/usr/local/bin/./awtrix.sh stop```     
 Test that it restarts with:  
-``` **/usr/local/bin/./awtrix.sh restart**```     
+```/usr/local/bin/./awtrix.sh restart```     
 
 Enable the service with the command
 
