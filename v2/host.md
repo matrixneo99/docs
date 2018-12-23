@@ -6,7 +6,10 @@ First check if Java is installed
   
 otherwise install the latest Java8:  
 ```sudo apt-get install oracle-java8-jdk```  
-  
+
+Set your timezone: e.g  
+``` sudo timedatectl set-timezone Europe/Berlin```  
+   
 ## **Quickstart**
 This short example shows how to start the Java application.
 Move to the next point for installing on a Linux machine such RaspberryPi
@@ -117,6 +120,7 @@ Test that it restarts with:
 If everything is working, enable the service with the command
 
 ```sudo systemctl enable awtrix```  
+
 
 
 
