@@ -4,7 +4,7 @@ This Tutorial describes the installation on a Linux machine (in my case a Raspbe
 First check if Java is installed  
 ```java -version```  
   
-otherwise install the latest Java8:  
+Otherwise install the latest Java8:  
 ```sudo apt-get install oracle-java8-jdk```  
 
 Set your timezone: e.g  
