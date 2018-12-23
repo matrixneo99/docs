@@ -24,7 +24,7 @@ After successfully uploading the firmware, the AWTRIXController starts a WiFi ho
 http://192.168.4.1/  
 ```  
 In the first menu item you can configure your WiFi.  
-**You also have to enter the IP address of the AWTRIX host in the last input field.**
+!> **You also have to enter the IP address of the AWTRIX host in the last input field.**
 
 ## **Troubleshooting**
 If the access point does not appear after successful flashing, the flash memory of the ESP must be reset.
