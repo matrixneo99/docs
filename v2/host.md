@@ -15,7 +15,7 @@ This short example shows how to start the Java application.
 Move to the next point for installing on a Linux machine such RaspberryPi
 
 Download the current java  file
-[AWTRIX Java application](#)
+[AWTRIX Java application](http://awtrix.blueforcer.de/awtrix.jar)
 
  and start it via command line or terminal
  ``` sudo java -jar awtrix.jar ```    
