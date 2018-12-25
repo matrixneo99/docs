@@ -1,5 +1,4 @@
 * [Home](v2/)
-* [API](v2/api)
 
 * Hardware
     * [Partslist](v2/partslist)
@@ -10,6 +9,9 @@
     * [AWTRIX Controller](v2/firmware)
     * [AWTRIX Host](v2/host)
 
-
+* Usage
+    * [Webinterface](v2/web)
+    * [Appsetup](v2/appsetup)
+    * [API](v2/api)
 
 
