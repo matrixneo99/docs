@@ -1,11 +1,8 @@
 ## **IDE**
 
 Platform.IO is used to edit and upload the firmware.
-
 The underlying IDE (Atom, Visual Studio Code) does not matter.
-
 However, this manual is based on Visual Studio code and may need to be adapted.
-
 The installation of the IDE is described in the following link:
 [https://platformio.org/platformio-ide](https://platformio.org/platformio-ide)
 
