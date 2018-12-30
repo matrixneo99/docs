@@ -20,18 +20,28 @@ Unzip the ZIP file with a suitable unpacker and open the folder in Visual Studio
 ![image alt text](assets/image_2.png)
 
 ## **Setup**
-After successfully uploading the firmware, the AWTRIXController starts a WiFi hotspot, connect to your mobile phone with this open access point and enter the address for the Wifi configuration into a webbrowser:   
-http://192.168.4.1/
 
-In the first menu item you can configure your WiFi.  
-!> **You also have to enter the IP address of the AWTRIX host in the last input field.**
+After successfully uploading the firmware(e.g. Blue LED is permanently illuminated), the AWTRIXController starts an own WiFi hotspot (named as AWTRIXController), connect to your mobile phone with this open access point(no pw required hotspot AWTRIXController) and enter the address for the WiFi configuration into a web browser.
+
+- Connect to WiFi hotspot "AWTRIXController".
+- Visit http://192.168.4.1/ to enter the configuration menu.
+- Enter the credentials of your own WiFi network in the configuration.  
+- Enter the IP address of the AWTRIX host in the last input field.
 
 
 ## **Troubleshooting**
-If the access point does not appear after successful flashing, the flash memory of the ESP must be reset.
-To do this download the Flash Download Tools (ESP8266 & ESP32)
- from [here](https://www.espressif.com/en/support/download/other-tools), start it and click on Erase, then flash the ESP once again.
 
-If your Matrix shows weird Pixel and you cant read it, you have to flash the Firmware again but set the Matrixmode 2:  
-just uncomment following line in awtrixcontroller.cpp   
+If the access point does not appear after successful flashing or something went wrong, the flash memory of the ESP must be reset. To do this download the Flash Download Tools (ESP8266 & ESP32) from [here](https://www.espressif.com/en/support/download/other-tools), click on Erase, then flash the ESP once again.
+
+- Download the [tool](https://www.espressif.com/en/support/download/other-tools).
+- Unzip it.
+- Start the flash tool exe.
+  - Select your uC accordingly from the available configuration menu.
+  - Navigate to SPIDownload.
+  - Configure the COM-Port and Baud Rate.
+  - Click on Erase Button to delete the flash finally.
+
+If your Matrix shows weird Pixel and you cant read it, you have to change code and flash the Firmware again, by setting the Matrixmode 2:
+- just uncomment following line in awtrixcontroller.cpp   
 ```#define MATRIX_MODEV2```
+- repeat steps from chapter **Flashing**
