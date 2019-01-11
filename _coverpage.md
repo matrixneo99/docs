@@ -8,5 +8,6 @@
 * Lots of functions
 * Opensource
 
-[V1.0](v1/README)
-[V2.0](v2/README)
+[Github](https://github.com/awtrix/awtrix)
+[Getting Started](v1/README)
+
