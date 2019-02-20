@@ -12,5 +12,5 @@
 
 [1000uF 10V 105C Capacitor](https://goo.gl/v87Fzt)
 
-
+[LDR GL5528(optional)](https://www.amazon.de/Qualit%C3%A4t-GL5516-Lichtabh%C3%A4ngige-Widerstand-Fotowiderstand/dp/B00NXW9WZ6/)
 

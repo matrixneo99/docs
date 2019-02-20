@@ -1,5 +1,5 @@
 AWTRIX 2.0 can run on any platform (Windows, MacOS, Linux), the only requirement is the support of Java8. It is a non-GUI application so you doesnt need an desktop enviroment.   
-This Tutorial describes the installation on a Linux machine (in my case a Raspberry ZeroW with Rasbian Lite)
+This Tutorial describes the installation on a Linux machine 
 
 First check if Java is installed  
 ```java -version```  
@@ -9,10 +9,25 @@ Otherwise install the latest Java8:
 
 Set your timezone: e.g  
 ``` sudo timedatectl set-timezone Europe/Berlin```  
+
+## Update Java to version 1.8.0_201 (needed for Raspberry)
+
+- Download the package from https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html (here you need "Linux ARM 32 Hard Float ABI")
+- Move package to Raspberry to /home/pi (with FileZilla or WinSCP)
+- Unpack package
+  - ```sudo tar zxvf jdk-8u201-linux-arm32-vfp-hflt.tar.gz -C /opt```
+- Enable Java and delete packages
+  - ```sudo update-alternatives --install /usr/bin/javac javac /opt/jdk1.8.0_201/bin/javac 1```
+  - ```sudo update-alternatives --install /usr/bin/java java /opt/jdk1.8.0_201/bin/java 1```
+  - ```rm jdk-8u201-linux-arm32-vfp-hflt.tar.gz```
+  - ```sudo update-alternatives --config javac``` **Here with selection 1 Select version 1.8.0_201**
+  - ```sudo update-alternatives --config java```  **Here with selection 1 Select version 1.8.0_201**
+  - Test if it works with ``` java -version```
+
    
 ## **Quickstart**
 This short example shows how to start the Java application.
-Move to the next point for installing on a Linux machine such RaspberryPi
+Move to the next point for installing on a Linux machine
 
 Download the current java  file
 [AWTRIX Java application](https://blueforcer.de/downloads/awtrix.jar)
@@ -29,6 +44,8 @@ Shortly after the start the web interface can be called via http://awtrix_ip:700
 ```sudo mkdir /usr/local/awtrix```  
 ```cd /usr/local/awtrix```    
 ```sudo wget https://blueforcer.de/downloads/awtrix.jar```
+
+
 
 
 
@@ -131,6 +148,13 @@ To stop awtrix
 To restart awtrix   
 ```sudo systemctl restart awtrix.service``` 
 
+
+## **Update**  
+```sudo -i```  
+```cd /usr/local/awtrix```  
+```systemctl stop awtrix.service```  
+```wget -N awtrix.jar https://blueforcer.de/downloads/awtrix.jar```  
+```systemctl start awtrix.service```  
 
 
 ## **Docker**

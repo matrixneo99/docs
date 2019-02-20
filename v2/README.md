@@ -2,13 +2,13 @@
 
 
 
-After a break of more than half a year the development of ***AWTRIX 2.0** started.
+After a break of more than half a year the development of **AWTRIX 2.0** started.
 The reason for a complete version jump is relatively simple:
 The ESP8266 is very inflexible for such applications. This is partly due to the relatively low memory and RAM. It was simply not possible to add more functions and at the same time guarantee the stability or to keep features like OTA.
 
 ***AWTRIX 2.0*** is therefore built in 2 parts:
 The ESP8266 as Matrix Driver (AWTRIXController)
-And a Java capable host like Windows, MacOS, RaspberryPi, etc. (AWTRIX) the host takes over the complete logic while the ESP takes over the commands and displays them stubbornly.
+And a Java capable Server like Windows, MacOS, RaspberryPi, etc. the Server takes over the complete logic while the ESP takes over the commands and displays them stubbornly.
 
 ***AWTRIX 2.0*** is based on Java 8 and has been trimmed for resource-saving functionality.
 (5% CPU Load on a Rpi ZeroW).

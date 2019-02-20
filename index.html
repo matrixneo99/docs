@@ -2,27 +2,49 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Awtrix Documentation</title>
+  <title>Blueforcers Documentation</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="The official Awtrix documentation">
+  <meta name="description" content="Official documentations">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: 'Awtrix',
-      repo: 'awtrix/awtrix',
-      ga: 'UA-116750873-1',
+      name: 'Docs',
       loadSidebar: true,
       loadNavbar: true,
-      coverpage: true
+      coverpage: true,
+      mergeNavbar: true,
+      maxLevel: 4,
+      onlyCover: true,
+      subMaxLevel: 3
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/ga.min.js"></script>
+    <style>
+        /**
+        - main title
+        */
+        .cover-main h1 a span {
+            color: #000000;
+            font-weight: bold;
+        }
 
+        /**
+         - main title's version number
+         */
+        .cover-main h1 a span small {
+            color: black;
+        }
+
+    </style>
 </body>
+
 </html>
+
+

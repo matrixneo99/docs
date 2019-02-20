@@ -3,7 +3,7 @@
 
 ## **3D-Print**
 
-The housing can be created with a 3D printer. The necessary files can be downloaded from [Thingyverse](https://www.thingiverse.com/thing:2791276).
+The housing can be created with a 3D printer. The necessary files can be downloaded from [Thingiverse](https://www.thingiverse.com/thing:2791276).
 
 The 3D objects are already aligned as they should be printed to require as little support material as possible. Please print the **LED grid in black**, otherwise the "pixels" are not clearly separated, as they shine through the material.
 **Recommended print settings:**

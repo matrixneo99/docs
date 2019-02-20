@@ -1,5 +1,8 @@
 * [Home](v2/)
 
+* [Changelog](v2/changelog)
+
+
 * Hardware
     * [Partslist](v2/partslist)
     * [Electronics](v2/electronics)
@@ -7,11 +10,14 @@
 
 * Software
     * [AWTRIX Controller](v2/firmware)
-    * [AWTRIX Host](v2/host)
+    * [AWTRIX Server](v2/host)
 
 * Usage
     * [Webinterface](v2/web)
-    * [Appsetup](v2/appsetup)
     * [API](v2/api)
+    * [Cloud](v2/cloud)
 
+* App Development
+    * [Create your own App](v2/app)
+    * [Publish App](v2/apppublish)
 
