@@ -122,7 +122,7 @@ starts a timer for the given timespan and shows an alert when the time has expir
 - timer: timespan in ```"hours:minutes:seconds"``` 
 - color: Array of Integer [R,G,B] (optional)
 - count: how many times the timer should blink (optional)
-- text: text wich will shown (static, up to 8 characters) (optional)
+- text: text which will shown (static, up to 8 characters) (optional)
 
 ``` JSON
 {"timer":"00:00:10","color":[255,0,0],"count":10,"text":"AWTRIX"}
@@ -266,7 +266,7 @@ The following example is structured as follows:
  - Show the line on the matrix
  - Wait 3 Seconds
  - Exit the drawingmode
- - reapeat all twice
+ - Repeat all twice
 
 !> **Please note:** You need to call exit to leave the drawingmode and go back to normal state. If you set repeat, the exit command will be ignored and automatically exits the drawingmode when all repeats are done.  
 
@@ -379,6 +379,6 @@ The following example is structured as follows:
 - **<span style="color:blue">wait</span>** Wait X milliseconds before the next Command
   - ms
     - Integer ms
-- **<span style="color:blue">show</span>**  Shows all previours commands
+- **<span style="color:blue">show</span>**  Shows all previous commands
 - **<span style="color:blue">clear</span>** Clear the Matrix
 - **<span style="color:blue">exit</span>**  Exit drawing mode and go back to normal state
