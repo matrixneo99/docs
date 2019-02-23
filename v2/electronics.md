@@ -6,3 +6,4 @@ Soldering directly to the matrix can have fatal consequences, as the flexible PC
 Before soldering the socket for the power supply, screw it to the housing with 2 soldered wires. How you solder everything together can be seen in this scheme:
 
 ![image alt text](assets/awtrix_Steckplatine.jpg)
+![image alt text](assets/awtrix_Steckplatine.png)
