@@ -35,7 +35,7 @@ Download the current java  file
  and start it via command line or terminal
  ``` sudo java -jar awtrix.jar ```    
 
-!> **sudo** is not always needed. It depends on the folder in wich you want to start the Application. Awtrix need to create new folders and files, so in few cases Awtrix has no write permissions.
+!> **sudo** is not always needed. It depends on the folder in wich you want to start the Application. AWTRIX need to create new folders and files, so in few cases AWTRIX has no write permissions.
 
 Shortly after the start the web interface can be called via http://awtrix_ip:7000.
 
