@@ -211,7 +211,7 @@ You can set predefined Icons uploaded with [AWTRIXER](https://blueforcer.de/down
 **Params**  
 - force
   - Whether the given informations should be displayed immediately or after the current app (true/false).
-  if set to false the given AppInformations are sorted into a Appqueue. After the current App, AWTRIX will show and delete all apps of the Appqueue one by one. So you are able to send many temporary apps at once. If there are no more apps in the queue, awtrix will continue to run its own apps.
+  if set to false the given AppInformations are sorted into a Appqueue. After the current App, AWTRIX will show and delete all apps of the Appqueue one by one. So you are able to send many temporary apps at once. If there are no more apps in the queue, AWTRIX will continue to run its own apps.
 - text
   - Text to be displayed (string)
 - icon (optional)
