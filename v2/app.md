@@ -20,7 +20,7 @@ AWTRIX Apps are Java libraries that can be loaded at runtime.
 Defined functions called by AWTRIX transfer the information about the screen layout.
 
 # Procedure 
-The functions are divided into 4 main parts:  
+The functions are divided into four main parts:  
   
 **Initialization**  
 AWTRIX initializes the app and checks if all necessary settings parameters are set. If so, the app will be included in AWTRIX's internal apploop.  
@@ -30,9 +30,9 @@ At every start AWTRIX asks for the desired tickrate (in ms) in which the drawing
 
 **Rendering**  
 AWTRIX called the function each set Tick.
-AWTRIX expects, with each tick, a list of all drawingcommands that represent a frame.
+AWTRIX expects, with each tick, a list of all drawing commands that represent a frame.
 After receiving this list, AWTRIX draws all commands step by step and then displays the finished rendered frame.
 
 **Update**
-While updating, AWTRIX asks the APP how many Downloads are needed (ususal one). Then (for each singe download) it requests the URL for the desired data, download it, and return the response as String and InputStream for further porcessing inside the App.
+While updating, AWTRIX asks the APP how many Downloads are needed (ususal one). Then (for each singe download) it requests the URL for the desired data, download it, and return the response as String and InputStream for further processing inside the App.
 AWTRIX has an global configurable Updateinterval after wich every App will be updated. The user can also force each app to update after a specific timespan.
