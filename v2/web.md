@@ -8,7 +8,7 @@ Here you can manage all your settings, manage your apps and download new one.
 ![image alt text](assets/web.png)
 
 ## **Systemsettings**
-Here you will find all relevant settings concerning the operation of Awtrix.
+Here you will find all relevant settings concerning the operation of AWTRIX.
 - **verboseLog**
   - logging mode that records more information than the usual logging mode. 
 - **switchAnimation**
@@ -34,7 +34,7 @@ Here you will find all relevant settings concerning the operation of Awtrix.
 - **webServerPort**
   - Port the Websever listens to
 - **MQTTclient**
-  - Connects Awtrix to an existing MQTT Broker
+  - Connects AWTRIX to an existing MQTT Broker
 
 ## **MyApps**
 The administration of all your apps takes place here.  
@@ -46,6 +46,6 @@ This setting is sufficient for most apps not to exhaust the API quota.
 However, if desired, the interval at which the app fetches new data can be forced. Just enter a timespan in seconds (minimum 10s). 
 
 ## **Appstore**
-Awtrix has its own appstore.
+AWTRIX has its own appstore.
 Here all tested apps are provided and can be downloaded or updated.
 After a download you find this app in MyApps.
