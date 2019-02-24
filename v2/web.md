@@ -51,7 +51,7 @@ Here all tested apps are provided and can be downloaded or updated.
 After a download you find this app in MyApps.  
  
 <img src="assets/crypto.png" height="36" width="36"> **crypto**  
-Shows prices for any cryptocurrency. Set your desired Coin and your currency  
+Shows prices for any cryptocurrency. Set your desired Coin and your currency.   
 
 <img src="assets/facebook.png" height="36" width="36"> **facebook**  
 Shows your Facebooksite likes count.   
@@ -62,7 +62,7 @@ Zeigt dir die Spritpreise in deiner Naehe an.(Tankerkoenig API)
 www.tankerkoenig.de  
 
 <img src="assets/instagram.png" height="36" width="36"> **instagram**  
-Shows your Instagram follower count  
+Shows your Instagram follower count.   
 www.instagram.com  
 
 <img src="assets/matomo.png" height="36" width="36"> **matomo**  
@@ -70,7 +70,7 @@ Shows you the visitors of the transferred Matomo instance who were online during
 http://matomo.org  
 
 <img src="assets/moon.png" height="36" width="36"> **moon**  
-Get Today's Moon Phase with current viewing information  
+Get Today's Moon Phase with current viewing information.  
 Internal App  
 
 <img src="assets/news.png" height="36" width="36"> **news**  
@@ -82,7 +82,7 @@ Shows the percentage of progress and remaining time of OctoPrint printing.
 http://octoprint.org  
 
 <img src="assets/overwatch.png" height="36" width="36"> **overwatch**  
-Shows your current Skillranking  
+Shows your current Skillranking.  
 http://playoverwatch.com  
 
 <img src="assets/pinteresr.png" height="36" width="36"> **pinterest**  
@@ -94,11 +94,11 @@ Shows the atmospheric particulate matter (PM).
 https://openaq.org/#/map
 
 <img src="assets/speedtest.png" height="36" width="36"> **speedtest**  
-Messures the time between the Frames  
+Messures the time between the Frames.  
 Internal App  
 
 <img src="assets/twitch.png" height="36" width="36"> **twitch**  
-Shows your Twitch subscriber count or your live viewers while youre streaming  
+Shows your Twitch subscriber count or your live viewers while youre streaming.  
 www.twitch.tv  
 
 <img src="assets/twitter.png" height="36" width="36"> **twitter**  
