@@ -14,3 +14,4 @@
 
 [LDR GL5528(optional)](https://www.amazon.de/Qualit%C3%A4t-GL5516-Lichtabh%C3%A4ngige-Widerstand-Fotowiderstand/dp/B00NXW9WZ6/)
 
+[PCB of the circut, unpopulated, from darkbobby](https://www.ebay.fr/itm/123630559606)
