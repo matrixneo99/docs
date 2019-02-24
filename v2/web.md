@@ -49,3 +49,64 @@ However, if desired, the interval at which the app fetches new data can be force
 AWTRIX has its own appstore.
 Here all tested apps are provided and can be downloaded or updated.
 After a download you find this app in MyApps.
+
+**crypto**
+Shows prices for any cryptocurrency. Set your desired Coin and your currency
+
+**facebook**
+Shows your Facebooksite likes count. 
+www.facebook.com
+
+**gas**
+Zeigt dir die Spritpreise in deiner Naehe an.(Tankerkoenig API)
+www.tankerkoenig.de
+
+**instagram**
+Shows your Instagram follower count 
+www.instagram.com
+
+**matomo**
+Shows you the visitors of the transferred Matomo instance who were online during the given time period. 
+matomo.org
+
+**moon**
+Get Today's Moon Phase with current viewing information
+
+**news**
+This app provides live top and breaking headlines for your country.
+Powered by NewsAPI.org  
+newsapi.org
+
+**octoprint**
+Shows the percentage of progress and remaining time of OctoPrint printing. 
+octoprint.org
+
+**overwatch**
+Shows your current Skillranking
+playoverwatch.com
+
+**pinterest**
+Shows your pinterest follower count.
+www.pinterest.com
+
+**pm**
+Shows the atmospheric particulate matter (PM).
+
+**speedtest**
+Messures the time between the Frames
+
+**twitch**
+Shows your Twitch subscriber count or your live viewers while youre streaming
+www.twitch.tv
+
+**twitter**
+Shows your Twitter Follower count.
+twitter.com
+
+**weather**
+Shows the current temperature of your location.
+www.apixu.com
+
+**youtube**
+Shows your Youtube subscriber count. 
+www.youtube.com
