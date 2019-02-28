@@ -1,3 +1,5 @@
+!> The server software is closed Source!
+
 AWTRIX 2.0 can run on any platform (Windows, MacOS, Linux), the only requirement is the support of Java8. It is a non-GUI application so you doesnt need an desktop enviroment.   
 This Tutorial describes the installation on a Linux machine 
 
@@ -158,7 +160,7 @@ To restart awtrix
 
 
 ## **Docker**
-**(Only for x64 platforms!)**  
+**(Only for x64 platforms & not maintained by me)**  
 
 https://hub.docker.com/r/o0shojo0o/awtrix
 

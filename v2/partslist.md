@@ -1,10 +1,12 @@
 
 ## **Partslist**    
 
+!> The availability of the articles changes daily. Therefore it can happen that some articles are not to be found under the link any more. However, there are the parts from many dealers. Just search on ebay or aliexpress :)
+
 
 [Wemos D1 Mini (ESP-12E)](https://goo.gl/TVk7h7)
 
-[8x32 WS2812B RGB Matrix](https://goo.gl/Cjq4FA)
+[8x32 WS2812B flexible Matrix](https://goo.gl/Cjq4FA)
 
 [power supply (>4A)](https://goo.gl/QLydM3) 
 

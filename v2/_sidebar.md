@@ -1,7 +1,5 @@
 * [Home](v2/)
 
-* [Changelog](v2/changelog)
-
 
 * Hardware
     * [Partslist](v2/partslist)
