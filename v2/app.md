@@ -34,5 +34,5 @@ AWTRIX expects, with each tick, a list of all drawing commands that represent a 
 After receiving this list, AWTRIX draws all commands step by step and then displays the finished rendered frame.
 
 **Update**
-While updating, AWTRIX asks the APP how many Downloads are needed (ususal one). Then (for each singe download) it requests the URL for the desired data, download it, and return the response as String and InputStream for further processing inside the App.
-AWTRIX has an global configurable Updateinterval after wich every App will be updated. The user can also force each app to update after a specific timespan.
+While updating, AWTRIX asks the APP how many Downloads are needed (ususal one). Then (for each single download) it requests the URL for the desired data, download it, and return the response as String and InputStream for further processing inside the App.
+AWTRIX has an global configurable Updateinterval after wich every App will be updated. The user can also force each app to update after a specific duration.
