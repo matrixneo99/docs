@@ -1,7 +1,12 @@
 !> The server software is closed Source!
 
+!> Please note that Java is not very resource friendly.
+If you want to use a Raspberry i recommend at least a Raspberry 3+ or comparable. It runs on a ZeroW but a bit slower. 
+
+
 AWTRIX 2.0 can run on any platform (Windows, MacOS, Linux), the only requirement is the support of Java8. It is a non-GUI application so you doesnt need an desktop enviroment.   
-This Tutorial describes the installation on a Linux machine 
+This Tutorial describes the installation on a Linux machine.  
+
 
 First check if Java is installed  
 ```java -version```  
@@ -11,6 +16,26 @@ Otherwise install the latest Java8:
 
 Set your timezone: e.g  
 ``` sudo timedatectl set-timezone Europe/Berlin```  
+   
+## **Quickstart**
+This short example shows how to start the Java application.
+Move to the next point for installing on a Linux machine
+
+Download the current java  file
+[AWTRIX Java application](https://blueforcer.de/downloads/awtrix.jar)
+
+ and start it via command line or terminal 
+
+ **Linux & MacOS:**  
+ ``` sudo java -jar awtrix.jar ```    
+ **Windows:**  
+ ``` java -jar awtrix.jar ```  
+
+   
+!> **sudo** is not always needed. It depends on the folder in wich you want to start the Application. AWTRIX need to create new folders and files, so in few cases AWTRIX has no write permissions.
+
+Shortly after the start the web interface can be called via http://awtrix_ip:7000.
+
 
 ## Update Java to version 1.8.0_201 (needed for Raspberry)
 
@@ -26,21 +51,6 @@ Set your timezone: e.g
   - ```sudo update-alternatives --config java```  **Here with selection 1 Select version 1.8.0_201**
   - Test if it works with ``` java -version```
 
-   
-## **Quickstart**
-This short example shows how to start the Java application.
-Move to the next point for installing on a Linux machine
-
-Download the current java  file
-[AWTRIX Java application](https://blueforcer.de/downloads/awtrix.jar)
-
- and start it via command line or terminal
- ``` sudo java -jar awtrix.jar ```    
-
-!> **sudo** is not always needed. It depends on the folder in wich you want to start the Application. AWTRIX need to create new folders and files, so in few cases AWTRIX has no write permissions.
-
-Shortly after the start the web interface can be called via http://awtrix_ip:7000.
-
 
 ## **Installing on a Linux machine with Autostart**
 ```sudo mkdir /usr/local/awtrix```  
@@ -48,11 +58,7 @@ Shortly after the start the web interface can be called via http://awtrix_ip:700
 ```sudo wget https://blueforcer.de/downloads/awtrix.jar```
 
 
-
-
-
 ### **Autostart**
-
 
 Create a file under  **/etc/systemd/system/** with nano or vi. eg.  
 ```sudo nano /etc/systemd/system/awtrix.service```  
@@ -157,10 +163,3 @@ To restart awtrix
 ```systemctl stop awtrix.service```  
 ```wget -N awtrix.jar https://blueforcer.de/downloads/awtrix.jar```  
 ```systemctl start awtrix.service```  
-
-
-## **Docker**
-**(Only for x64 platforms & not maintained by me)**  
-
-https://hub.docker.com/r/o0shojo0o/awtrix
-
