@@ -41,7 +41,7 @@ Otherwise install the latest Java8:
 
 Set your timezone: e.g  
 ``` sudo timedatectl set-timezone Europe/Berlin```  
-### Update Java to version 1.8.0_201 (needed for Raspberry)
+### Update Java to version 1.8.0_201 (for Raspberry)
 
 - Download the package from https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html (here you need "Linux ARM 32 Hard Float ABI")
 - Move package to Raspberry to /home/pi (with FileZilla or WinSCP)
@@ -161,9 +161,27 @@ To restart awtrix
 ```sudo systemctl restart awtrix.service``` 
 
 
-## **Update**  
+### **Update**  
 ```sudo -i```  
 ```cd /usr/local/awtrix```  
 ```systemctl stop awtrix.service```  
 ```wget -N awtrix.jar https://blueforcer.de/downloads/awtrix.jar```  
 ```systemctl start awtrix.service```  
+
+
+## **Run AWTRIX on android device**
+!> This needs a powerful device. Ive tested it on a Galaxy S8+ and it runs without any problems.
+
+- [Download Termux](https://play.google.com/store/apps/details?id=com.termux) from Google Playstore
+- open it and run follwing command:  
+```pkg install wget proot -y && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Debian/debian.sh && bash debian.sh```
+- start debian console with   
+```./start-debian.sh```
+- update debian   
+```apt-get update```
+- install Java   
+```apt-get install default-jre```
+- download AWTRIX   
+```wget https://blueforcer.de/downloads/awtrix.jar```
+- run AWTRIX   
+```java -jar awtrix.jar```
