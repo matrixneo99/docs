@@ -8,15 +8,6 @@ AWTRIX 2.0 can run on any platform (Windows, MacOS, Linux), the only requirement
 This Tutorial describes the installation on a Linux machine.  
 
 
-First check if Java is installed  
-```java -version```  
-  
-Otherwise install the latest Java8:  
-```sudo apt-get install oracle-java8-jdk```  
-
-Set your timezone: e.g  
-``` sudo timedatectl set-timezone Europe/Berlin```  
-   
 ## **Quickstart**
 This short example shows how to start the Java application.
 Move to the next point for installing on a Linux machine
@@ -37,7 +28,20 @@ Download the current java  file
 Shortly after the start the web interface can be called via http://awtrix_ip:7000.
 
 
-## Update Java to version 1.8.0_201 (needed for Raspberry)
+
+
+## **Installing on a Linux machine with Autostart**
+
+
+First check if Java is installed  
+```java -version```  
+  
+Otherwise install the latest Java8:  
+```sudo apt-get install oracle-java8-jdk```  
+
+Set your timezone: e.g  
+``` sudo timedatectl set-timezone Europe/Berlin```  
+### Update Java to version 1.8.0_201 (needed for Raspberry)
 
 - Download the package from https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html (here you need "Linux ARM 32 Hard Float ABI")
 - Move package to Raspberry to /home/pi (with FileZilla or WinSCP)
@@ -51,8 +55,8 @@ Shortly after the start the web interface can be called via http://awtrix_ip:700
   - ```sudo update-alternatives --config java```  **Here with selection 1 Select version 1.8.0_201**
   - Test if it works with ``` java -version```
 
+### **Download AWTRIX Server**
 
-## **Installing on a Linux machine with Autostart**
 ```sudo mkdir /usr/local/awtrix```  
 ```cd /usr/local/awtrix```    
 ```sudo wget https://blueforcer.de/downloads/awtrix.jar```
