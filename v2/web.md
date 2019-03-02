@@ -57,6 +57,10 @@ Shows prices for any cryptocurrency. Set your desired Coin and your currency.
 Shows your Facebooksite likes count.   
 www.facebook.com  
 
+<img src="v2/assets/fortnite.png" height="36" width="36"> **fortnite**  
+Shows your Kills, Wins, Wins% and K/D   
+https://www.epicgames.com/fortnite/de/home  
+
 <img src="v2/assets/gas.png" height="36" width="36"> **gas**  
 Zeigt dir die Spritpreise in deiner Naehe an.(Tankerkoenig API)  
 www.tankerkoenig.de  
@@ -108,6 +112,11 @@ http://twitter.com
 <img src="v2/assets/weather.png" height="36" width="36"> **weather**  
 Shows the current temperature of your location.  
 www.apixu.com  
+
+<img src="v2/assets/wetterdienst.png" height="36" width="36"> **wetterdienst**    
+Displays weather-warnings of Deutscher Wetterdienst  
+Only appears if there is at least one warning  
+https://www.dwd.de/DE/leistungen/opendata/help/warnungen/cap_warncellids_csv.csv/
 
 <img src="v2/assets/youtube.png" height="36" width="36"> **youtube**  
 Shows your Youtube subscriber count.  
