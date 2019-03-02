@@ -1,13 +1,13 @@
 AWTRIX 2.0 has the possibility to be controlled by external systems. MQTT or REST API can be used for this.
 
 For MQTT you can connect AWTRIX to an existing MQTT broker (You can do this in your systemsettings).
-The base topic is **awtrix**.
+The base topic is **awtrix** by default.
 
 For the REST API the base endpoint is  
 **http://[AWTRIX-SERVER_IP]:7000/api/v3**  
 
 e.g. for a simple test on Rasberry Pi curl can be used to submit a http request:  
-curl http://[AWTRIX-SERVER_IP]:7000/api/v3 -H 'Content-Type: application/json' -d"{"power": true}"  
+```curl http://[AWTRIX-SERVER_IP]:7000/api/v3 -H 'Content-Type: application/json' -d"{"power": true}"```  
 
 ## Basic Controls
 
