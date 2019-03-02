@@ -9,6 +9,8 @@ Here you can manage all your settings, manage your apps and download new one.
 
 ## **Systemsettings**
 Here you will find all relevant settings concerning the operation of AWTRIX.
+
+### General Settings   
 - **verboseLog**
   - logging mode that records more information than the usual logging mode. 
 - **switchAnimation**
@@ -26,16 +28,25 @@ Here you will find all relevant settings concerning the operation of AWTRIX.
 - **updateInterval**
   - Global interval in which all apps are updated. Exceptions are the apps that were manually overwritten (see MyApps).
 - **scrollSpeed**
-  - The speed at which the text is scrolled in milliseconds. (The lower the faster, default: 65)
+  - The speed at which the text is scrolled in milliseconds. (The lower the faster, default: 65) 
+### Automatic Brightness   
 - **autoBrightness**
-  - Activates the automatic brightness control. (Only with LDR connected)
+  - Activates the automatic brightness control. (Only with LDR connected)  
+### Connections  
 - **cloudActive**
   - Enables the cloudconnection
+- **FritzCaller**
+  - Enables the Fritz!Box Call monitor, and displays incoming calls
+    
+?> You can also add your Fritz!Box phone book, by export it and [convert the xml to json](http://www.utilities-online.info/xmltojson/). Save it as "fritzbox.json" in the config folder. AWTRIX will show the caller names after restart.
+
 - **webServerPort**
   - Port the Websever listens to
+- **FritzBoxIP**
+  - IP adress of your Fritzbox (needed for FritzCaller)
+### MQTT 
 - **MQTTclient**
   - Connects AWTRIX to an existing MQTT Broker
-
 ## **MyApps**
 The administration of all your apps takes place here.  
 Here you can disable, configure or delete your apps  
