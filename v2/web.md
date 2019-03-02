@@ -40,7 +40,8 @@ Here you will find all relevant settings concerning the operation of AWTRIX.
 - **FritzCaller**
   - Enables the Fritz!Box Call monitor, and displays incoming calls
     
-?> You can also add your Fritz!Box phone book, by export it and [convert the xml to json](http://www.utilities-online.info/xmltojson/). Save it as "fritzbox.json" in the config folder. AWTRIX will show the caller names after restart.
+?> The CallMonitor function on the Fritz!Box must be activated (e.g. by entering #96*5* on a telephone connected to the Fritz!Box).
+You can also add your Fritz!Box phone book, by export it and [convert the xml to json](http://www.utilities-online.info/xmltojson/). Save it as "fritzbox.json" in the config folder. AWTRIX will show the caller names after restart.
 
 - **webServerPort**
   - Port the Websever listens to
