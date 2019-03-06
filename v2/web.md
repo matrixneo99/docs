@@ -14,39 +14,39 @@ Here you will find all relevant settings concerning the operation of AWTRIX.
 - **verboseLog**
   - logging mode that records more information than the usual logging mode. 
 - **switchAnimation**
-  - Whether the transition animation between the apps should be displayed
+  - Whether the transition animation between the apps should be displayed.
 - **colorSwitch**
-  - Another transition animation 
+  - Another transition animation. 
 - **uppercaseLetters**
-  - Converts  all letters to capital letters
+  - Converts  all letters to capital letters.
 - **textColor**
-  - The global texcolor (Red,Green, Blue). All values can be from 0-255 and must be separated by a comma.
+  - The global texcolor (Red, Green, Blue). All values can be from 0-255 and must be separated by a comma.
 - **brightness**
-  - The brightness of the matrix (0-255)
+  - The brightness of the matrix (0-255).
 - **appDuration**
-  - Time in seconds to change to the next app
+  - Time in seconds to change to the next app.
 - **updateInterval**
   - Global interval in which all apps are updated. Exceptions are the apps that were manually overwritten (see MyApps).
 - **scrollSpeed**
-  - The speed at which the text is scrolled in milliseconds. (The lower the faster, default: 65) 
+  - The speed at which the text is scrolled in milliseconds. (The lower the faster, default: 65).  
   
 ### Automatic Brightness   
 - **autoBrightness**
-  - Activates the automatic brightness control. (Only with LDR connected)
+  - Activates the automatic brightness control. (Only with LDR connected).
     
 ### Connections    
 - **cloudActive**
-  - Enables the cloudconnection
+  - Enables the cloud connection.
 - **FritzCaller**
-  - Enables the Fritz!Box Call monitor, and displays incoming calls
+  - Enables the Fritz!Box Call monitor, and displays incoming calls.
     
 ?> The CallMonitor function on the Fritz!Box must be activated (e.g. by entering #96*5* on a telephone connected to the Fritz!Box).
 You can also add your Fritz!Box phone book, by export it and [convert the xml to json](http://www.utilities-online.info/xmltojson/). Save it as "fritzbox.json" in the config folder. AWTRIX will show the caller names after restart.
 
 - **webServerPort**
-  - Port the Websever listens to
+  - Port the Webserver listens to.
 - **FritzBoxIP**
-  - IP adress of your Fritzbox (needed for FritzCaller) 
+  - IP adress of your Fritzbox (needed for FritzCaller).  
    
 ### MQTT 
 - **MQTTclient**
@@ -113,11 +113,11 @@ Shows the atmospheric particulate matter (PM).
 https://openaq.org/#/map
 
 <img src="v2/assets/speedtest.png" height="36" width="36"> **speedtest**  
-Messures the time between the Frames.  
+Measures the time between the Frames.  
 Internal App  
 
 <img src="v2/assets/twitch.png" height="36" width="36"> **twitch**  
-Shows your Twitch subscriber count or your live viewers while youre streaming.  
+Shows your Twitch subscriber count or your live viewers while you are streaming.  
 www.twitch.tv  
 
 <img src="v2/assets/twitter.png" height="36" width="36"> **twitter**  
@@ -129,8 +129,8 @@ Shows the current temperature of your location.
 www.apixu.com  
 
 <img src="v2/assets/wetterdienst.png" height="36" width="36"> **wetterdienst**    
-Displays weather-warnings of Deutscher Wetterdienst  
-Only appears if there is at least one warning  
+Displays weather-warnings of Deutscher Wetterdienst.  
+Only appears if there is at least one warning.  
 https://www.dwd.de/DE/leistungen/opendata/help/warnungen/cap_warncellids_csv.csv/
 
 <img src="v2/assets/youtube.png" height="36" width="36"> **youtube**  
