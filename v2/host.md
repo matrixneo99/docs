@@ -4,7 +4,7 @@
 If you want to use a Raspberry i recommend at least a Raspberry 3+ or comparable. It runs on a ZeroW but a bit slower. 
 
 
-AWTRIX 2.0 can run on any platform (Windows, MacOS, Linux), the only requirement is the support of Java8. It is a non-GUI application so you doesnt need an desktop enviroment.   
+AWTRIX 2.0 can run on any platform (Windows, MacOS, Linux), the only requirement is the support of Java8. It is a non-GUI application so you doesnt need an desktop environment.   
 This Tutorial describes the installation on a Linux machine.  
 
 
@@ -23,7 +23,7 @@ Download the current java  file
  ``` java -jar awtrix.jar ```  
 
    
-!> **sudo** is not always needed. It depends on the folder in wich you want to start the Application. AWTRIX need to create new folders and files, so in few cases AWTRIX has no write permissions.
+!> **sudo** is not always needed. It depends on the folder in which you want to start the Application. AWTRIX need to create new folders and files, so in few cases AWTRIX has no write permissions.
 
 Shortly after the start the web interface can be called via http://awtrix_ip:7000.
 
