@@ -20,7 +20,7 @@ Here you will find all relevant settings concerning the operation of AWTRIX.
 - **uppercaseLetters**
   - Converts  all letters to capital letters
 - **textColor**
-  - The global texcolor (Red,Green, Blue). All values can be from 0-255 and must be separated by a comma.
+  - The global textcolor (Red, Green, Blue). All values can be from 0-255 and must be separated by a comma.
 - **brightness**
   - The brightness of the matrix (0-255)
 - **appDuration**
@@ -36,7 +36,7 @@ Here you will find all relevant settings concerning the operation of AWTRIX.
     
 ### Connections    
 - **cloudActive**
-  - Enables the cloudconnection
+  - Enables the cloud connection
 - **FritzCaller**
   - Enables the Fritz!Box Call monitor, and displays incoming calls
     
@@ -113,11 +113,11 @@ Shows the atmospheric particulate matter (PM).
 https://openaq.org/#/map
 
 <img src="v2/assets/speedtest.png" height="36" width="36"> **speedtest**  
-Messures the time between the Frames.  
+Measures the time between the frames.  
 Internal App  
 
 <img src="v2/assets/twitch.png" height="36" width="36"> **twitch**  
-Shows your Twitch subscriber count or your live viewers while youre streaming.  
+Shows your Twitch subscriber count or your live viewers while you are streaming.  
 www.twitch.tv  
 
 <img src="v2/assets/twitter.png" height="36" width="36"> **twitter**  
