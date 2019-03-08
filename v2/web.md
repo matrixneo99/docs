@@ -65,6 +65,9 @@ AWTRIX has its own appstore.
 Here all tested apps are provided and can be downloaded or updated.
 After a download you find this app in MyApps.  
  
+<img src="v2/assets/Countdown.png" height="36" width="36"> **Countdown**  
+Shows the remaining days from now to a target date 
+
 <img src="v2/assets/crypto.png" height="36" width="36"> **crypto**  
 Shows prices for any cryptocurrency. Set your desired Coin and your currency.   
 

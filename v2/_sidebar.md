@@ -13,6 +13,7 @@
 * Usage
     * [Webinterface](v2/web)
     * [API](v2/api)
+    * [AWTRIXER](v2/awtrixer)
     * [Cloud](v2/cloud)
 
 * App Development
