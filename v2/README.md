@@ -36,13 +36,13 @@ AWTRIX 2.0 is completely free to use. Maybe only the cloud connection will be av
 
 - **Facebook** (Displays the likes of your Facebook page)
 - **Twitter** (Shows the number of your Twitter followers)
-- **Twitch** (Shows your Twitch subscriber count or your live viewers while youre streaming)
+- **Twitch** (Shows your Twitch subscriber count or your live viewers while you are streaming)
 - **Instagram** (Shows the number of your Instagram follower)
 - **Octoprint** (Shows the percentage of progress and remaining time of OctoPrint printing.)
 - **Overwatch** (Shows your current Skillranking)
 - **Fortnite** (Shows your Kills, Wins, Wins% and K/D)
 - **Wetterdienst** (Displays weather-warnings of Deutscher Wetterdienst)
-- **Time** (Shows Time, Date and the day of the week )
+- **Time** (Shows Time, Date and the day of the week)
 - **Weather** (Shows the current temperature of your location.)
 - **Moon** (Get Today’s Moon Phase with current viewing information)
 - **Matomo** (Shows you the visitors of the transferred Matomo instance who were online during the given time period.)
@@ -54,6 +54,6 @@ AWTRIX 2.0 is completely free to use. Maybe only the cloud connection will be av
 - **Gas** (Zeigt dir die Spritpreise in deiner Naehe an.(Tankerkoenig API))
   
   
-You can also create your own Icons with AWTRIXER! Use it for own Apps or temporary Apps from external Systems like Smarthome!
-Availbale for Windows, MacOS, Linux and Android! You can also upload your Icons for the Community.
+You can also create your own Icons with AWTRIXER! Use it for own Apps or temporary Apps from external Systems like Smarthome!  
+Available for Windows, MacOS, Linux and Android! You can also upload your Icons for the Community.
 ![AWTRIX 2.0 Webinterface with integrated Appstore](assets/awtrixer.PNG)
