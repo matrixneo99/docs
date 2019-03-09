@@ -11,28 +11,85 @@ Here you can manage all your settings, manage your apps and download new one.
 Here you will find all relevant settings concerning the operation of AWTRIX.
 
 ### General Settings     
+- **boot animation**
+  - Shows colored AWTRIX as initial sequence.  
+  Type: switch  
+  Values: On/Off  
+  Default/Preset: Off  
+  Unit : - 
+
 - **verboseLog**
-  - logging mode that records more information than the usual logging mode. 
+  - logging mode that records more information than the usual logging mode.  
+  Type: switch  
+  Values: On/Off  
+  Default/Preset: Off  
+  Unit : -  
+  
 - **switchAnimation**
-  - Whether the transition animation between the apps should be displayed.
+  - Whether the transition animation between the apps should be displayed.  
+  Type: switch  
+  Values: On/Off  
+  Default/Preset: Off  
+  Unit : -    
+  
 - **colorSwitch**
-  - Another transition animation. 
+  - Another transition animation.  
+  Type: switch  
+  Values: On/Off  
+  Default/Preset: ??  
+  Unit : -
+
 - **uppercaseLetters**
-  - Converts  all letters to capital letters.
+  - Converts  all letters to capital letters.  
+  Type: switch  
+  Values: On/Off  
+  Default/Preset: ??  
+  Unit : -
+
 - **textColor**
-  - The global texcolor (Red, Green, Blue). All values can be from 0-255 and must be separated by a comma.
+  - The global texcolor (Red, Green, Blue). All values can be from 0-255 and must be separated by a comma.  
+  Type: Integer value range  
+  Values: 0 ... 255, 0 ... 255, 0 ... 255  
+  Default/Preset: ??  
+  Unit : -
+
 - **brightness**
-  - The brightness of the matrix (0-255).
+  - The brightness of the matrix.  
+  Type: Integer value range  
+  Values: 0 ... 255  
+  Default/Preset: ??  
+  Unit : -
+  
 - **appDuration**
-  - Time in seconds to change to the next app.
+  - Time in seconds to change to the next app.  
+  Type: Integer value range  
+  Values: 0 ... ??  
+  Default/Preset: ??  
+  Unit : Seconds
+  
 - **updateInterval**
-  - Global interval in which all apps are updated. Exceptions are the apps that were manually overwritten (see MyApps).
+  - Global interval in which all apps are updated. Exceptions are the apps that were manually overwritten (see MyApps).  
+  Type: Integer value range  
+  Values: 0 ... 255  
+  Default/Preset: ??  
+  Unit : -
+  
 - **scrollSpeed**
-  - The speed at which the text is scrolled in milliseconds. (The lower the faster, default: 65).  
+  - The speed at which the text is scrolled in milliseconds. (The lower the faster, default: 65).    
+  Type: Integer value range  
+  Values: 65 ... ?  
+  Default/Preset: 65  
+  Unit : Millieseconds  
+
   
 ### Automatic Brightness   
 - **autoBrightness**
-  - Activates the automatic brightness control. (Only with LDR connected).
+  - Activates the automatic brightness control. (Only with LDR connected).  
+  Type: switch  
+  Values: On/Off  
+  Default/Preset: Off    
+  Unit : 
+  
     
 ### Connections    
 - **cloudActive**
