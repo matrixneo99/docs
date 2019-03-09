@@ -1,3 +1,4 @@
+## AWTRIX Cloud
 The goal of the AWTRIX Cloud is to bridge the gap between your local instance and services in the cloud while delivering the maximum possible security and privacy.
 I have designed the AWTRIX Cloud with security in mind. When you activate the new Cloud component, your instance will create a secure connection to the AWTRIX Cloud. There is no need for any further configuration or to expose your instance to the internet. Also no usernames, passwords, email addresses or other private information is required and the cloud server does not store any information about the connections.
 
@@ -14,7 +15,7 @@ At any time you have the possibility to regenerate the token.
 ## Getting started
 
 Activate the cloud connection (cloudActive) in the system settings and restart AWTRIX.
-The token will be shown on the status page. (keep this token safe)
+The token will be shown on the status page. (keep this token confidential)
 
 Now you can send your requests to 
 https://awtrix.blueforcer.de/cloud
