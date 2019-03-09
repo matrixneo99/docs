@@ -16,19 +16,18 @@ Unzip the ZIP file with a suitable unpacker and open the folder in Visual Studio
 
 ## **Setup**
 
-Before flashing the Firmware, open **awtrix-conf.h** and edit your wifi credentials and set the IP from the Server wich should run the serverapplication.  If you using a LDR for automatic brightness control, you also need to modify the LDR section. if not, just ignore it.  
-![image alt text](assets/settings.png)
+Before flashing the Firmware, open **awtrix-conf.h** and edit your wifi credentials and set the IP from the Server wich should run the serverapplication.  If you using a LDR for automatic brightness control, you also need to modify the LDR section. if not, just ignore it.
+If you want to use Gesture Control with the APDS-9960 Sensor, Set GESTURE to true  
+![image alt text](assets/config.png)
 
  Then simply flash the firmware. In VSC, this is done in the blue line at the bottom of the window:  
 
 ![image alt text](assets/image_2.png)
 
 ## **OTA Update**
-- Setup your Firmware as described in the previous point
-- Compile the Firmware [Buid].
-- Open a Browser and call the AXTRIXCONTOLLER_IP
-- Via [Browse...] select "PATH_TO_PROJECTFOLDER\awtrixcontroller.pioenvs\nodemcuv2\firmware.bin" and press [Update] 
-- wait until the flash process is completed.
+AWTRIXController supports over-the-air updates. PlatformIO Terminal:  
+(Replace IP)  
+```platformio run -t upload --upload-port 192.168.178.96```
 
 ## **Troubleshooting**
 

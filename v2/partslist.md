@@ -14,5 +14,6 @@
 
 [1000uF 10V 105C Capacitor](https://goo.gl/v87Fzt)
 
-[LDR GL5528(optional)](https://www.amazon.de/Qualit%C3%A4t-GL5516-Lichtabh%C3%A4ngige-Widerstand-Fotowiderstand/dp/B00NXW9WZ6/)
+[LDR GL5528 (optional)](https://www.amazon.de/Qualit%C3%A4t-GL5516-Lichtabh%C3%A4ngige-Widerstand-Fotowiderstand/dp/B00NXW9WZ6/)
 
+[APDS-9960 (optional)](https://www.banggood.com/APDS-9960-DIY-3_3V-Mall-RGB-Gesture-Sensor-For-Arduino-I2C-Interface-Detection-Range-10-20cm-p-1214027.html)
