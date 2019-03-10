@@ -2,7 +2,7 @@
 
 Platform.IO is used to edit and upload the firmware.
 The underlying IDE (Atom, Visual Studio Code) does not matter.
-However, this manual is based on Visual Studio code and may need to be adapted.
+However, this manual is based on Visual Studio Code(VSC) and may need to be adapted.
 The installation of the IDE is described in the following link:
 [https://platformio.org/platformio-ide](https://platformio.org/platformio-ide)
 
@@ -12,7 +12,7 @@ The firmware can be downloaded from github as a ZIP file
 [https://github.com/awtrix/AWTRIX2.0-Controller](https://github.com/awtrix/AWTRIX2.0-Controller)
 ![image alt text](assets/image_1.png)
 
-Unzip the ZIP file with a suitable unpacker and open the folder in Visual Studio code.
+Unzip the ZIP file with a suitable unpacker and open the folder in Visual Studio Code.
 
 ## **Setup**
 
@@ -24,8 +24,8 @@ If you want to use Gesture Control with the APDS-9960 Sensor, Set GESTURE to tru
 
 ![image alt text](assets/image_2.png)
 
-## **OTA Update**
+## **OTA(Over the air) Update**
 AWTRIXController supports over-the-air updates. PlatformIO Terminal:  
-(Replace IP)  
+(Replace IP of the AWTRIX controller)  
 ```platformio run -t upload --upload-port 192.168.178.96```
 Please note: First OTA only works after ESP reset
