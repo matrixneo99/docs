@@ -29,11 +29,3 @@ AWTRIXController supports over-the-air updates. PlatformIO Terminal:
 (Replace IP)  
 ```platformio run -t upload --upload-port 192.168.178.96```
 Please note: First OTA only works after ESP reset
-
-## **Troubleshooting**
-If you have trouble to compile the Firmware, try updateing platformio via the terminal  
-```platformio update```  
-  
-If your Matrix shows weird Pixel and you cant read it, you have to change code and flash the Firmware again, by setting the Matrixmode 2:
-- just uncomment (remove the first two //) following line in awtrixcontroller.cpp   
-```//#define MATRIX_MODEV2```
