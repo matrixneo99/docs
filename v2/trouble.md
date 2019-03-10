@@ -5,8 +5,8 @@ If you have trouble to compile the Firmware, try updateing platformio via the te
 ```platformio update```  
 
 ### Matrix
-If your Matrix shows weird Pixel and you cant read it, you have to change code and flash the Firmware again, by setting the Matrixmode 2:
-- just uncomment (remove the first two //) following line in awtrixcontroller.cpp   
+If your Matrix shows weird Pixel and you cant read it, you have to set the Matrixmode 2 and flash the Firmware again. 
+- just uncomment (remove the first two //) 
 ```//#define MATRIX_MODEV2```
 
 ### Jittering display
