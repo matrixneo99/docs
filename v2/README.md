@@ -43,6 +43,7 @@ AWTRIX 2.0 is completely free to use. Maybe only the cloud connection will be av
 - **Fortnite** (Shows your Kills, Wins, Wins% and K/D)
 - **Wetterdienst** (Displays weather-warnings of Deutscher Wetterdienst)
 - **Time** (Shows Time, Date and the day of the week)
+- **Countdown** (Shows the remaining days from now to a target date)
 - **Weather** (Shows the current temperature of your location.)
 - **Moon** (Get Today’s Moon Phase with current viewing information)
 - **Matomo** (Shows you the visitors of the transferred Matomo instance who were online during the given time period.)
