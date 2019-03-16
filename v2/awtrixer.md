@@ -1,7 +1,7 @@
 
 
 With AWTRIXER you can create Icons (8x8), images (1x8-8x32) and animations (8x8).
-You can also stream it to the matrix and upload it to the Awtrix cloud. 
+You can also stream it to the matrix and upload it to the AWTRIX cloud. 
 [Download here](https://blueforcer.de/download/)
 
 ![image alt text](assets/awtrixer.png)
@@ -9,10 +9,10 @@ You can also stream it to the matrix and upload it to the Awtrix cloud.
 
 ## Creator
 #### Livedrawing: 
-To use the livedrawing functionality you have to specify the Awtrix_IP and select livedrawing. 
+To use the livedrawing functionality you have to specify the Awtrix_IP and select live drawing by the tick box. 
 The entered IP is saved persistently so that the IP is preconfigured for further use.
 
-The working area of the Awtrixer is the matrix in the desired dimensions. Here you can draw via color selection, fill and clear.
+The working area of the AWTRIXER is the matrix in the desired dimensions. Here you can draw via color selection, fill and clear.
 
 #### Import images
 **File --> Import** 
@@ -29,10 +29,10 @@ Here you can choose between 120 predefined colors.
 **Custom color:**  
 Here you can select a custom color in the HSB/RGB or Web color space.
 - Use: Uses the selected color directly for drawing in the matrix.
-- Save: Saves the selected color in the color selection under Custom Color until you close the Awtrixer.
+- Save: Saves the selected color in the color selection under Custom Color until you close the AWTRIXER.
 
 #### Upload
-The drawn icon (only 8x8) can be uploaded to the Awtrix server after entering the captcha. 
+The drawn icon (only 8x8) can be uploaded to the AWTRIX server after entering the captcha. 
    
 !> **Attention:** With the upload the creator gives away any rights to the created icon. 
 You cannot edit or delete the icon after upload. The icons are visible to everyone. I reserve the right to delete icons uploaded with AWTRIXER from the server without prior consultation. This includes double icons, any unconstitutional symbols, sexist or in any way offensive or insulting graphics and useless icons such as a completely white one. Likewise I will delete icons whose names are not meaningful.
@@ -49,22 +49,22 @@ Here you can create animations based on the set dimensions of the matrix and the
 - **Update:** Updates the selected frame with the contents on the matrix.
 - **Delete:** Deletes the selected frame.
 
-- **Export for Drawing Api:** Exports the animation (with the current settings) for further use via MQTT/Rest API, 
+- **Export for Drawing API:** Exports the animation (with the current settings) for further use via MQTT/Rest API, 
 as animation.json in the start directory or as content in the clipboard
         
 - **Speed:** Here you can set the frame rate of the animation between min.60ms and max 2000ms.
 
-- **Play:** Plays the animation. If live drawing is activated also on AWTRIX
+- **Play:** Plays the animation. If live drawing is activated also on AWTRIX.
 
 
 ## Database
 Here you can find all uploaded Icons/Animations with the corresponding IconID.
 After selecting an icon, it can also be copied to the Creator (except animations).
-If live drawing is activated, the icons of the database can also be displayed directly on the Awtrix.
+If live drawing is activated, the icons of the database can also be displayed directly on the AWTRIX.
 
 ## AWTRIXER mobile
 
-AWTRIXER is also available for Android and iOS.
+AWTRIXER is also [available](https://blueforcer.de/download/) for Android and iOS.
 The mobile version is limited to creating static 8x8 Icons  
   
 ![image alt text](assets/ios.png)
