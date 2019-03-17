@@ -16,7 +16,7 @@ Before soldering the socket for the power supply, screw it to the housing with 2
 ![image alt text](assets/AWTRIX_Gesture_Steckplatine.jpg)
 
 
-***Gesture control*** 
+***Gesture control***   
 You can control AWTRIX with Hand gestures (Only switching between Apps for now) with a APDS-9960 Gesture Sensor
 Please keep in mind that the Housing is not prepared for mounting this sensor. You will have to do it by your own.
   
