@@ -3,11 +3,20 @@
 The electronics can either be soldered to a breadboard or wired "overhung". (PCB may still be available for a small fee in the future)
 
 Soldering directly to the matrix can have fatal consequences, as the flexible PCB and especially the LEDs are extremely heat-sensitive. Leave the cable at the input (DI,5V,GND) and cut off only the plug. If your matrix has an output (DO), you can remove it completely.
-Before soldering the socket for the power supply, screw it to the housing with 2 soldered wires. How you solder everything together can be seen in this scheme:
+Before soldering the socket for the power supply, screw it to the housing with 2 soldered wires.
 
-![image alt text](assets/image_0.jpg)
 
-## Gesture control
+***Core setp up:***   
+![image alt text](assets/AWTRIX_Core_Steckplatine.jpg)
+
+***Optional LDR setp up:***  
+![image alt text](assets/AWTRIX_LDR_Steckplatine.jpg)
+
+***Optional Gesture setp up:***  
+![image alt text](assets/AWTRIX_Gesture_Steckplatine.jpg)
+
+
+***Gesture control*** 
 You can control AWTRIX with Hand gestures (Only switching between Apps for now) with a APDS-9960 Gesture Sensor
 Please keep in mind that the Housing is not prepared for mounting this sensor. You will have to do it by your own.
   
