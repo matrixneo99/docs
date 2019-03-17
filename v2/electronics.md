@@ -6,17 +6,17 @@ Soldering directly to the matrix can have fatal consequences, as the flexible PC
 Before soldering the socket for the power supply, screw it to the housing with 2 soldered wires. How you solder everything together can be seen in this scheme:
 
 
-*Core setp up:*  
+***Core setp up:***   
 ![image alt text](assets/AWTRIX_Core_Steckplatine.jpg)
 
-*Optional LDR setp up:*  
+***Optional LDR setp up:***  
 ![image alt text](assets/AWTRIX_LDR_Steckplatine.jpg)
 
-*Optional Gesture setp up:*  
+***Optional Gesture setp up:***  
 ![image alt text](assets/AWTRIX_Gesture_Steckplatine.jpg)
 
 
-## Gesture control
+***Gesture control*** 
 You can control AWTRIX with Hand gestures (Only switching between Apps for now) with a APDS-9960 Gesture Sensor
 Please keep in mind that the Housing is not prepared for mounting this sensor. You will have to do it by your own.
   
