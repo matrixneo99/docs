@@ -28,4 +28,16 @@ Please keep in mind that the Housing is not prepared for mounting this sensor. Y
 |GND|GND|Ground|
 |D3|SDA|I2C Data|
 |D1|SCL|I2C Clock|
-|D6|INT|Interrupt|
+|D6|INT|Interrupt|  
+
+
+***Optional DFPlayer Mini setup:***  
+![image alt text](assets/AWTRIX_DFMini_Steckplatine.jpg)   
+
+| Wemos | DFPlayer Mini | Function |
+| --- | --- | --- |
+|5V|VCC|Power|
+|G|GND|Ground|
+|D7|TX|Transmit|
+|D8|RX|Receive|   
+
