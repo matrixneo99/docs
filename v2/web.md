@@ -87,15 +87,34 @@ This setting is sufficient for most apps not to exhaust the API quota.
 However, if desired, the interval at which the app fetches new data can be forced. Just enter a timespan in seconds (minimum 10s). 
 
 ## **Appstore**
-AWTRIX has its own appstore.
-Here all tested apps are provided and can be downloaded or updated.
+AWTRIX has its own appstore.  
+Here all tested apps are provided and can be downloaded or updated.  
 After a download you find this app in MyApps.  
  
+<img src="v2/assets/xyz.png" height="36" width="36"> **Minecraft**  
+Shows the player count of a Minecraft Server  
+Only appears if the server is online  
+https://www.minecraft.net  
+
+<img src="v2/assets/xyz.png" height="36" width="36"> **mystrom**  
+Shows the state and power consumption of your MyStrom SmartPlug  
+https://mystrom.com/  
+
+<img src="v2/assets/xyz.png" height="36" width="36"> **QuitSmoking**  
+Shows the days how long you don't smoke anymore  
+Internal App  
+
+<img src="v2/assets/xyz.png" height="36" width="36"> **tronalddump**  
+Shows the dumbest things Donald Trump has ever said  
+https://tronalddump.io  
+
 <img src="v2/assets/Countdown.png" height="36" width="36"> **Countdown**  
-Shows the remaining days from now to a target date 
+Shows the remaining days from now to a target date  
+Internal App  
 
 <img src="v2/assets/crypto.png" height="36" width="36"> **crypto**  
 Shows prices for any cryptocurrency. Set your desired Coin and your currency.   
+Internal App  
 
 <img src="v2/assets/facebook.png" height="36" width="36"> **facebook**  
 Shows your Facebooksite likes count.   
