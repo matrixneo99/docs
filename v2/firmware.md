@@ -28,4 +28,7 @@ If you want to use Gesture Control with the APDS-9960 Sensor, Set GESTURE to tru
 AWTRIXController supports over-the-air updates. PlatformIO Terminal:  
 (Replace IP of the AWTRIX controller)  
 ```platformio run -t upload --upload-port 192.168.178.96```
-Please note: First OTA only works after ESP reset
+Please note: First OTA only works after ESP reset  
+
+![image alt text](assets/OTA_update_AWTRIXController.jpg)
+
