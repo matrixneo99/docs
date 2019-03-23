@@ -2,43 +2,30 @@
 
 Platform.IO is used to edit and upload the firmware.
 The underlying IDE (Atom, Visual Studio Code) does not matter.
-However, this manual is based on Visual Studio code and may need to be adapted.
+However, this manual is based on Visual Studio Code(VSC) and may need to be adapted.
 The installation of the IDE is described in the following link:
 [https://platformio.org/platformio-ide](https://platformio.org/platformio-ide)
 
-## **Flashing**
+## **Download and open firmware**
 
-The firmware can be downloaded here:
-[AWTRIX Controller](http://awtrix.blueforcer.de/awtrixcontroller.zip)
+The firmware can be downloaded from github as a ZIP file
+[https://github.com/awtrix/AWTRIX2.0-Controller](https://github.com/awtrix/AWTRIX2.0-Controller)
+![image alt text](assets/image_1.png)
 
-
-Unzip the ZIP file with a suitable unpacker and open the folder in Visual Studio code. Then simply flash the firmware. In VSC, this is done in the blue line at the bottom of the window:  
-
-![image alt text](assets/image_2.png)
+Unzip the ZIP file with a suitable unpacker and open the folder in Visual Studio Code.
 
 ## **Setup**
 
-After successfully uploading the firmware(e.g. Blue LED is permanently illuminated), the AWTRIXController starts an own WiFi hotspot (named as AWTRIXController), connect to your mobile phone with this open access point(no pw required hotspot AWTRIXController) and enter the address for the WiFi configuration into a web browser.
+Before flashing the Firmware, open **awtrix-conf.h** and edit your wifi credentials and set the IP from the Server wich should run the serverapplication.  If you using a LDR for automatic brightness control, you also need to modify the LDR section. if not, just ignore it.
+If you want to use Gesture Control with the APDS-9960 Sensor, Set GESTURE to true  
+![image alt text](assets/config.png)
 
-- Connect to WiFi hotspot "AWTRIXController".
-- Visit http://192.168.4.1/ to enter the configuration menu.
-- Enter the credentials of your own WiFi network in the configuration.  
-- Enter the IP address of the AWTRIX host in the last input field.
+ Then simply flash the firmware. In VSC, this is done in the blue line at the bottom of the window:  
 
+![image alt text](assets/image_2.png)
 
-## **Troubleshooting**
-
-If the access point does not appear after successful flashing or something went wrong, the flash memory of the ESP must be reset. To do this download the Flash Download Tools (ESP8266 & ESP32) from [here](https://www.espressif.com/en/support/download/other-tools), click on Erase, then flash the ESP once again.
-
-- Download the [tool](https://www.espressif.com/en/support/download/other-tools).
-- Unzip it.
-- Start the flash tool exe.
-  - Select your uC accordingly from the available configuration menu.
-  - Navigate to SPIDownload.
-  - Configure the COM-Port and Baud Rate.
-  - Click on Erase Button to delete the flash finally.
-
-If your Matrix shows weird Pixel and you cant read it, you have to change code and flash the Firmware again, by setting the Matrixmode 2:
-- just uncomment following line in awtrixcontroller.cpp   
-```#define MATRIX_MODEV2```
-- repeat steps from chapter **Flashing**
+## **OTA(Over the air) Update**
+AWTRIXController supports over-the-air updates. PlatformIO Terminal:  
+(Replace IP of the AWTRIX controller)  
+```platformio run -t upload --upload-port 192.168.178.96```
+Please note: First OTA only works after ESP reset
