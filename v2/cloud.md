@@ -26,6 +26,6 @@ The mode is the same as in the API (draw, basics, app, settings)
 
 As a body just send the same JSONs as for MQTT or WebAPI.
 
-For example in IFTTT its quiet simple to display an Whatsapp notification on AWTRIX:  
+For example in IFTTT https://ifttt.com/ its quiet simple to display an Whatsapp notification on AWTRIX:  
   
 ![image alt text](assets/ifttt.png)
