@@ -91,24 +91,24 @@ AWTRIX has its own appstore.
 Here all tested apps are provided and can be downloaded or updated.  
 After a download you find this app in MyApps.  
  
-<img src="v2/assets/xyz.png" height="36" width="36"> **pr0gramm**  
+<img src="v2/assets/pr0gramm.png" height="36" width="36"> **pr0gramm**  
 Show the lenght of your Benis.   
 https://pr0gramm.com  
 
-<img src="v2/assets/xyz.png" height="36" width="36"> **Minecraft**  
+<img src="v2/assets/minecraft.png" height="36" width="36"> **Minecraft**  
 Shows the player count of a Minecraft Server.  
 Only appears if the server is online.  
 https://www.minecraft.net  
 
-<img src="v2/assets/xyz.png" height="36" width="36"> **mystrom**  
+<img src="v2/assets/mystrom.png" height="36" width="36"> **mystrom**  
 Shows the state and power consumption of your MyStrom SmartPlug.  
 https://mystrom.com/  
 
-<img src="v2/assets/xyz.png" height="36" width="36"> **QuitSmoking**  
+<img src="v2/assets/quitsmoking.png" height="36" width="36"> **QuitSmoking**  
 Shows the days how long you don't smoke anymore.  
 Internal App  
 
-<img src="v2/assets/xyz.png" height="36" width="36"> **tronalddump**  
+<img src="v2/assets/tronaldump.png" height="36" width="36"> **tronalddump**  
 Shows the dumbest things Donald Trump has ever said.  
 https://tronalddump.io  
 
