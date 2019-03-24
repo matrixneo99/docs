@@ -91,6 +91,14 @@ AWTRIX has its own appstore.
 Here all tested apps are provided and can be downloaded or updated.
 After a download you find this app in MyApps.  
  
+<img src="v2/assets/mixer.png" height="36" width="36"> **mixer**  
+Shows your mixer subscriber count or your live viewers while youre streaming.   
+https://mixer.com/  
+
+<img src="v2/assets/openwaether.png" height="36" width="36"> **OpenWeather**  
+Shows the current temperature of your location.  
+https://openweathermap.org/  
+
 <img src="v2/assets/Countdown.png" height="36" width="36"> **Countdown**  
 Shows the remaining days from now to a target date 
 
