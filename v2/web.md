@@ -12,7 +12,7 @@ Here you will find all relevant settings concerning the operation of AWTRIX.
 
 #### General Settings
 - **BootAnimation**
-  - shows an animation after boot 
+  - shows an animation after boot. 
 - **SwitchAnimation**
   - Whether the transition animation between the apps should be displayed.
 - **ColorSwitch**
@@ -44,7 +44,7 @@ Here you will find all relevant settings concerning the operation of AWTRIX.
 ### USB    
  After changing you need to restart the server
 - **USBMatrix**
-  - Enable to connect the Matrix via USB (Serialconnection)
+  - Enable to connect the Matrix via USB (Serialconnection).
     to the server. You need to activate USB also in the AWTRIXcontroller (min. v0.7).
 - **USBPort**
   - If USBPort "auto" (for autodetection) doesnt work, you need to insert the Port manually (e.g. "COM5" or "/dev/ttyUSB0")
@@ -52,7 +52,7 @@ Here you will find all relevant settings concerning the operation of AWTRIX.
 ### MQTT 
  After changing you need to restart the server
 - **MQTTclient**
-  - Connects AWTRIX to an existing MQTT Broker
+  - Connects AWTRIX to an existing MQTT Broker.
 
 ## Premium
 
@@ -87,10 +87,11 @@ This setting is sufficient for most apps not to exhaust the API quota.
 However, if desired, the interval at which the app fetches new data can be forced. Just enter a timespan in seconds (minimum 10s). 
 
 ## **Appstore**
-AWTRIX has its own appstore.
-Here all tested apps are provided and can be downloaded or updated.
+AWTRIX has its own appstore.  
+Here all tested apps are provided and can be downloaded or updated.  
 After a download you find this app in MyApps.  
  
+
 <img src="v2/assets/mixer.png" height="36" width="36"> **mixer**  
 Shows your mixer subscriber count or your live viewers while youre streaming.   
 https://mixer.com/  
@@ -99,18 +100,41 @@ https://mixer.com/
 Shows the current temperature of your location.  
 https://openweathermap.org/  
 
+<img src="v2/assets/pr0gramm.png" height="36" width="36"> **pr0gramm**  
+Show the lenght of your Benis.   
+https://pr0gramm.com  
+
+<img src="v2/assets/minecraft.png" height="36" width="36"> **Minecraft**  
+Shows the player count of a Minecraft Server.  
+Only appears if the server is online.  
+https://www.minecraft.net  
+
+<img src="v2/assets/mystrom.png" height="36" width="36"> **mystrom**  
+Shows the state and power consumption of your MyStrom SmartPlug.  
+https://mystrom.com/  
+
+<img src="v2/assets/quitsmoking.png" height="36" width="36"> **QuitSmoking**  
+Shows the days how long you don't smoke anymore.  
+Internal App  
+
+<img src="v2/assets/tronaldump.png" height="36" width="36"> **tronalddump**  
+Shows the dumbest things Donald Trump has ever said.  
+https://tronalddump.io  
+
 <img src="v2/assets/Countdown.png" height="36" width="36"> **Countdown**  
-Shows the remaining days from now to a target date 
+Shows the remaining days from now to a target date.  
+Internal App  
 
 <img src="v2/assets/crypto.png" height="36" width="36"> **crypto**  
 Shows prices for any cryptocurrency. Set your desired Coin and your currency.   
+Internal App  
 
 <img src="v2/assets/facebook.png" height="36" width="36"> **facebook**  
 Shows your Facebooksite likes count.   
 www.facebook.com  
 
 <img src="v2/assets/fortnite.png" height="36" width="36"> **fortnite**  
-Shows your Kills, Wins, Wins% and K/D   
+Shows your Kills, Wins, Wins% and K/D.   
 https://www.epicgames.com/fortnite/de/home  
 
 <img src="v2/assets/gas.png" height="36" width="36"> **gas**  
