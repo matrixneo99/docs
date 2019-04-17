@@ -31,7 +31,20 @@ Please keep in mind that the Housing is not prepared for mounting this sensor. Y
 |GND|GND|Ground|
 |D3|SDA|I2C Data|
 |D1|SCL|I2C Clock|
+|D6|INT|Interrupt|  
+
+
+***Optional DFPlayer Mini setup:***  
+![image alt text](assets/AWTRIX_DFMini_Steckplatine.jpg)   
+
+| Wemos | DFPlayer Mini | Function |
+| --- | --- | --- |
+|5V|VCC|Power|
+|G|GND|Ground|
+|D7|TX|Transmit|
+|D8|RX|Receive|   
 |D6|INT|Interrupt|
+
 
 ## Connecting a Raspberry to the Wemos via Serial
 If you have problems, stuttering with the WifiConnection, or just dont want to use Wifi from Server to Matrix you can use the Serial Connection to transmit the Data to the Matrix.
