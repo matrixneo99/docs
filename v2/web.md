@@ -5,7 +5,7 @@ The standard port is 7000.
 
 Here you can manage all your settings, manage your apps and download new one.
 
-![image alt text](assets/web.png)
+![image alt text](assets/appstore.png)
 
 ## **Systemsettings**
 Here you will find all relevant settings concerning the operation of AWTRIX.
@@ -90,34 +90,53 @@ However, if desired, the interval at which the app fetches new data can be force
 AWTRIX has its own appstore.  
 Here all tested apps are provided and can be downloaded or updated.  
 After a download you find this app in MyApps.  
- 
+
+<img src="v2/assets/Sunrise.png" height="36" width="36"> **Sunrise**  
+Shows sunset and sunrise times for a given location.  
+https://www.sunrise-sunset.org 
+
+<img src="v2/assets/GameOfLife.png" height="36" width="36"> **GameOfLife**  
+Conway's Game of Life  
+Internal App
+
+<img src="v2/assets/LookingEyes.png" height="36" width="36"> **LookingEyes**  
+Just some looking eyes :)   
+Internal App
+
+<img src="v2/assets/Matrix.png" height="36" width="36"> **Matrix**  
+Shows the popular Matrix animation.  
+Internal App
+
+<img src="v2/assets/PeopleInSpace.png" height="36" width="36"> **PeopleInSpace**  
+Shows how many people are in space right now.     
+https://www.howmanypeopleareinspacerightnow.com/ 
 
 <img src="v2/assets/mixer.png" height="36" width="36"> **mixer**  
-Shows your mixer subscriber count or your live viewers while youre streaming.   
+Shows your mixer subscriber count or your live viewers while youre streaming.     
 https://mixer.com/  
 
-<img src="v2/assets/openwaether.png" height="36" width="36"> **OpenWeather**  
-Shows the current temperature of your location.  
+<img src="v2/assets/OpenWeather.png" height="36" width="36"> **OpenWeather**  
+Shows the current temperature of your location.    
 https://openweathermap.org/  
 
 <img src="v2/assets/pr0gramm.png" height="36" width="36"> **pr0gramm**  
-Show the lenght of your Benis.   
+Show the lenght of your Benis.     
 https://pr0gramm.com  
 
-<img src="v2/assets/minecraft.png" height="36" width="36"> **Minecraft**  
+<img src="v2/assets/MinecraftServer.png" height="36" width="36"> **MinecraftServer**  
 Shows the player count of a Minecraft Server.  
 Only appears if the server is online.  
 https://www.minecraft.net  
 
-<img src="v2/assets/mystrom.png" height="36" width="36"> **mystrom**  
+<img src="v2/assets/MyStrom.png" height="36" width="36"> **mystrom**  
 Shows the state and power consumption of your MyStrom SmartPlug.  
 https://mystrom.com/  
 
-<img src="v2/assets/quitsmoking.png" height="36" width="36"> **QuitSmoking**  
+<img src="v2/assets/QuitSmoking.png" height="36" width="36"> **QuitSmoking**  
 Shows the days how long you don't smoke anymore.  
 Internal App  
 
-<img src="v2/assets/tronaldump.png" height="36" width="36"> **tronalddump**  
+<img src="v2/assets/TronaldDump.png" height="36" width="36"> **TronalDump**  
 Shows the dumbest things Donald Trump has ever said.  
 https://tronalddump.io  
 
@@ -125,7 +144,7 @@ https://tronalddump.io
 Shows the remaining days from now to a target date.  
 Internal App  
 
-<img src="v2/assets/crypto.png" height="36" width="36"> **crypto**  
+<img src="v2/assets/Crypto.png" height="36" width="36"> **Crypto**  
 Shows prices for any cryptocurrency. Set your desired Coin and your currency.   
 Internal App  
 

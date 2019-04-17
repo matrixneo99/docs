@@ -8,7 +8,7 @@ For the REST API the base endpoint is
 
 e.g. for a simple test on Raspberry Pi curl can be used to submit a http request:  
 
-```curl --header "Content-Type: application/json" --request POST --data {"msgShort":"Dei Muddi"} http://[AWTRIX-SERVER_IP]:7000/api/v3/basics ```
+```curl --header "Content-Type: application/json" --request POST --data {"msgShort":"Hello World"} http://[AWTRIX-SERVER_IP]:7000/api/v3/basics ```
 
 ## Basic Controls
 
@@ -129,7 +129,7 @@ plays a audiofile wich was loaded to the DFPlayers sd-card
 the MP3 files need to copy as follow:  
 Folder Name(1-99); File Name(1-255)  
 e.g  
-Folder=15; File=4  
+Folder:15; File:4  
 =  
 SD:/15/004.mp3  
 ___

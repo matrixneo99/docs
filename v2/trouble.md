@@ -4,6 +4,8 @@
 If you have trouble to compile the Firmware, try updateing platformio via the terminal  
 ```platformio update```   
 
+or with the menu:
+
 ![image alt text](assets/plattformio_update.jpg)  
   
   
