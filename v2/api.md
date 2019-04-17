@@ -7,7 +7,8 @@ For the REST API the base endpoint is
 **http://[AWTRIX-SERVER_IP]:7000/api/v3**  
 
 e.g. for a simple test on Raspberry Pi curl can be used to submit a http request:  
-```curl http://[AWTRIX-SERVER_IP]:7000/api/v3 -H 'Content-Type: application/json' -d"{"power": true}"```  
+
+```curl --header "Content-Type: application/json" --request POST --data {"msgShort":"Dei Muddi"} http://[AWTRIX-SERVER_IP]:7000/api/v3/basics ```
 
 ## Basic Controls
 
@@ -67,6 +68,7 @@ Controls the Apploop
   - "next" : next App
   - "back" : previous App
   - "pause" : pause the Apploop (toggle)
+  - "hold" : hold the current App without switching (toggle)
 
 ``` JSON
 {"app":"next"}
@@ -114,7 +116,23 @@ stop message scrolling
 {"msgStop":true}
 ```
 ___
+### play
 
+plays a audiofile wich was loaded to the DFPlayers sd-card
+
+**Params** 
+- play: Array of integers [folder,file,volume] 
+
+``` JSON
+{"play":[1,1,20]}
+```
+the MP3 files need to copy as follow:  
+Folder Name(1-99); File Name(1-255)  
+e.g  
+Folder=15; File=4  
+=  
+SD:/15/004.mp3  
+___
 ___
 ### timer
 
@@ -132,7 +150,21 @@ starts a timer for the given timespan and shows an alert when the time has expir
 {"timer":"stop"} removes the timer
 ```
 ___
+### stopwatch
 
+starts a stopwatch with predefined icon. While running awtrix doesnt accept anything else.
+You can define a custom icon. If the stopwatch reaches 1 hour it will remove the icon for more space for the hour digits
+
+**Params** 
+- stopwatch: start/stop the stopwatch
+- icon: iconID from AWTRIXER (optional)
+
+``` JSON
+{"stopwatch":true, "icon":423}
+
+{"stopwatch":false} 
+```
+___
 ### Get basic informations
 
 MQTT publish the information to the topic "[prefix]/response"
@@ -162,7 +194,7 @@ ___
 ## Change Settings
 
 All settings can be changed here.
-As key the same keys are used as they can be found under system settings.
+As key the same are used as they can be found under system settings.
 all values are Strings
 
 ### Endpoint
@@ -184,7 +216,7 @@ ___
 Set one or more settings
 
 ``` JSON
-{"brightness":100}
+{"Brightness":100}
 ```
 
 ___
@@ -214,6 +246,8 @@ You can set predefined Icons uploaded with [AWTRIXER](https://blueforcer.de/down
 - force
   - Whether the given informations should be displayed immediately or after the current app (true/false).
   if set to false the given AppInformations are sorted into a Appqueue. After the current App, AWTRIX will show and delete all apps of the Appqueue one by one. So you are able to send many temporary apps at once. If there are no more apps in the queue, AWTRIX will continue to run its own apps.
+- name (optional)
+  - identifier for your temporary App
 - text
   - Text to be displayed (string)
 - icon (optional)
@@ -224,10 +258,17 @@ You can set predefined Icons uploaded with [AWTRIXER](https://blueforcer.de/down
   - Moves the Icon out of the screen to free space for text (true/false)
 - count (optional)
   - how many times the text should scroll before switching to the next app. If the text doesnt need to scroll (because of the textlength) it will use the global appduration to switch. (Integer)
-  
+- play (optional) (Array of integers [folder,file,volume])
+  - plays a specific file on the DFPlayer when starting the App
+
   
 ```Example
-{"force":false,"icon":6,"text":"Awtrix","color":[255,0,0]}
+{"name":"test","force":false,"icon":6,"text":"Awtrix","color":[255,0,0]}
+```
+  
+You can remove an temporary App from the Appqueue with the given name  
+```Example
+{"remove":"test"}
 ```
 
 ___
@@ -330,7 +371,7 @@ The following example is structured as follows:
 ```
 
 
-**Possible commands**
+ #### **Possible commands**
 
 ?> The first pixel (upper left corner) has the coordinate [0,0] while the last one (lower right corner) has [31,7]  
 
