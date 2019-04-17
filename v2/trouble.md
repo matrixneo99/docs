@@ -2,7 +2,11 @@
 
 ### Firmware
 If you have trouble to compile the Firmware, try updateing platformio via the terminal  
-```platformio update```  
+```platformio update```   
+
+![image alt text](assets/plattformio_update.jpg)  
+  
+  
 
 ### Matrix
 If your Matrix shows weird Pixel and you cant read it, you have to set the Matrixmode 2 and flash the Firmware again. 
