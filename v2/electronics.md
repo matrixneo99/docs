@@ -54,10 +54,10 @@ You are also able to use the **GPIO´s** to connect the Pi to the Wemos:
   
 | Raspberry Pin | WEmos|
 | --- | --- |
-|04|5V|
-|06|GND|
-|08|RX|
-|10|TX|
+|04 5V |5V|
+|06 GND|GND|
+|08 TXD|RX|
+|10 RXD|TX|
 
 Then you need enable the Serial Pins by putting the folliwing line to
 File /boot/config.txt   
