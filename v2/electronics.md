@@ -5,13 +5,15 @@ The electronics can either be soldered to a breadboard or wired "overhung". (PCB
 Soldering directly to the matrix can have fatal consequences, as the flexible PCB and especially the LEDs are extremely heat-sensitive. Leave the cable at the input (DI,5V,GND) and cut off only the plug. If your matrix has an output (DO), you can remove it completely.
 Before soldering the socket for the power supply, screw it to the housing with 2 soldered wires.
 
-
+## CORE Setup
 ***Core setup:***   
 ![image alt text](assets/AWTRIX_Core_Steckplatine.jpg)
 
+## LDR (Light Dependent Resistor)
 ***Optional LDR setup:***  
 ![image alt text](assets/AWTRIX_LDR_Steckplatine.jpg)
 
+## Gesture
 ***Optional Gesture setup:***  
 ![image alt text](assets/AWTRIX_Gesture_Steckplatine.jpg)
 
@@ -29,6 +31,7 @@ Please keep in mind that the Housing is not prepared for mounting this sensor. Y
 |D6|INT|Interrupt|  
 
 
+## DFPlayer Mini
 ***Optional DFPlayer Mini setup:***  
 ![image alt text](assets/AWTRIX_DFMini_Steckplatine.jpg)   
 
@@ -38,7 +41,6 @@ Please keep in mind that the Housing is not prepared for mounting this sensor. Y
 |G|GND|Ground|
 |D7|TX|Transmit|
 |D8|RX|Receive|   
-|D6|INT|Interrupt|
 
 
 ## Connecting a Raspberry to the Wemos via Serial
