@@ -2,7 +2,7 @@
 
 
 
-After a break of more than half a year the development of ***AWTRIX 2.0** started.
+After a break of more than half a year the development of **AWTRIX 2.0** started.
 The reason for a complete version jump is relatively simple:
 The ESP8266 is very inflexible for such applications. This is partly due to the relatively low memory and RAM. It was simply not possible to add more functions and at the same time guarantee the stability or to keep features like OTA.
 
